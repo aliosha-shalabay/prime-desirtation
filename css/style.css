@@ -1,0 +1,138 @@
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+p {
+    color: #6d6e75;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+h4 {
+    color: #2a2d3a;
+    font-family: "Gentium Book";
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: -0.96px;
+}
+
+.btn-order-now {
+    box-shadow: 0 2px 5px rgba(237, 147, 33, 0.3);
+    background-color: #fb8c00;
+    background-image: linear-gradient(to top, #fb8c00 0%, #ff9e24 100%);
+    color: white;
+    border-radius: 25px;
+    padding: 7px 0 13px 0;
+    width: 125px;
+    margin-right: 25px;
+    height: 44px;
+    margin-top: 24px;
+}
+
+.btn-order-now:hover {
+    color: white;
+}
+
+li {
+    list-style: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.block-1 {
+    box-shadow: 4px 6px 20px rgba(174, 193, 196, 0.2);
+    background-color: #ffffff;
+}
+
+.block-1 .logo {
+    padding: 32px 0 32px 53px;
+}
+
+.block-1 .logo i {
+    color: #8b969d;
+    margin-right: 42px;
+    margin-top: 10px;
+}
+
+.block-1 .nav ul {
+    padding-left: 0;
+    display: flex;
+
+}
+
+.block-1 .nav ul li {
+    margin-left: 20px;
+}
+
+.block-1 .nav {
+    padding-top: 35px;
+}
+
+.block-1 .nav ul li a {
+    color: #313440;
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    text-transform: uppercase;
+    /* Text style for "Home" */
+    letter-spacing: 0.24px;
+}
+
+.block-1 .b1-contact {
+    padding-top: 35px;
+}
+
+.block-1 .b1-contact .b1-phone + div p {
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    text-transform: uppercase;
+}
+
+.block-1 .b1-contact .b1-phone div:nth-child(2) {
+    margin-top: -5px;
+    margin-left: 18px;
+}
+
+.block-1 .b1-contact .b1-phone div:nth-child(2) p {
+    color: #136bb5;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.block-1 .b1-chat {
+    border-left: 2px solid #9ea1a4;
+    padding-left: 20px;
+    margin-left: 20px;
+    margin-top: -13px;
+    padding-top: 14px;
+}
+
+.block-1 .b1-chat p {
+    color: #313440;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.btn-login {
+    color: #136bb5;
+    border: 2px solid #c8dbe5;
+    background: white;
+    box-shadow: none;
+}
+.btn-login:hover{
+    color: #136bb5;
+}
