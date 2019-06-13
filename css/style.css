@@ -16,8 +16,7 @@ h4 {
     font-family: "Gentium Book";
     font-size: 48px;
     font-weight: 700;
-    line-height: 16px;
-    letter-spacing: -0.96px;
+    line-height: 56px;
 }
 
 .btn-order-now {
@@ -48,6 +47,8 @@ a:hover {
 .block-1 {
     box-shadow: 4px 6px 20px rgba(174, 193, 196, 0.2);
     background-color: #ffffff;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .block-1 .logo {
@@ -105,7 +106,7 @@ a:hover {
 .block-1 .b1-contact .b1-phone div:nth-child(2) p {
     color: #136bb5;
     font-family: "Open Sans";
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 700;
     line-height: 18px;
     text-transform: uppercase;
@@ -133,6 +134,375 @@ a:hover {
     background: white;
     box-shadow: none;
 }
-.btn-login:hover{
+
+.btn-login:hover {
     color: #136bb5;
+}
+
+.block-2 .b1-section1 {
+    padding-top: 130px;
+}
+
+.block-2 .b1-section1 p:last-child {
+    color: #292c39;
+    font-family: "Gentium";
+    font-size: 24px;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 26px;
+    letter-spacing: -0.48px;
+}
+
+.block-2 .b1-section1 p:last-child span {
+    color: #fb8c00;
+    letter-spacing: -0.48px;
+}
+
+.block-2 .b1-section2 {
+    padding-top: 85px;
+}
+
+.block-2 .b2-section3 {
+    box-shadow: 0 22px 40px rgba(82, 121, 174, 0.09);
+    border-radius: 10px;
+    border: 1px solid #e7e7e7;
+    background-color: #ffffff;
+    padding: 30px 33px 34px 33px;
+    margin-top: 40px;
+}
+
+.block-2 .b2-section3 select {
+    border: 1px solid #e0e5e8;
+    background-color: #fafcfc;
+    height: 50px;
+    width: 100%;
+    color: #9ea1a4;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    padding: 14px;
+}
+
+.block-2 .b2-section3 input {
+    border: 1px solid #e0e5e8;
+    background-color: #fafcfc;
+    height: 50px;
+    color: #9ea1a4;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    padding: 14px;
+}
+
+.block-2 .b2-section3 p label {
+    color: #6d6e75;
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.block-2 .b2-section3 p {
+    margin-bottom: 5px;
+
+}
+
+.btn-outline-secondary {
+    border-color: #e0e5e8;
+    color: #9ea1a4;
+}
+
+.btn-outline-secondary:hover {
+    color: #fff;
+    background-color: #dcdcdc;
+    border-color: #dcdcdc;
+}
+
+.block-2 {
+    background: url("../images/b1-bg1.png") no-repeat right -53px top -242px, url("../images/b1-bg2.png") no-repeat left -53px top 70px;
+}
+
+.block-2 .b2-section3 .btn-order-now {
+    padding: 5px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.bg-icon1 {
+    display: block;
+    width: 26px;
+    height: 29px;
+    background: url('../images/css_sprites.png') -62px -10px;
+}
+
+.bg-icon2 {
+    display: block;
+    width: 32px;
+    height: 25px;
+    background: url('../images/css_sprites.png') -10px -10px;
+}
+
+.bg-icon3 {
+    display: block;
+    width: 29px;
+    height: 25px;
+    background: url('../images/css_sprites.png') -108px -10px;
+}
+
+.bg-icon4 {
+    display: block;
+    width: 28px;
+    height: 28px;
+    background: url('../images/css_sprites.png') -10px -55px;
+}
+
+.b2-counter {
+    margin-top: 50px;
+    background: url("../images/b2-bg3.png") no-repeat center center;
+    padding: 41px 16px 51px 55px;
+}
+
+.b2-counter p:first-child {
+    color: #2a2d3a;
+    font-family: "Open Sans";
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.b2-counter p:first-child span {
+    color: #2a2d3a;
+    font-family: "Open Sans";
+    font-size: 36px;
+    font-weight: 700;
+    margin-right: 20px;
+}
+
+.line {
+    width: 2px;
+    height: 76px;
+    background: #e0f3fc;
+    margin-top: 90px;
+}
+
+.line-title {
+    width: 60px;
+    height: 2px;
+    background: #5fba46;
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+}
+
+.bg-icon1__1_ {
+    display: inline-block;
+    margin-right: 32px;
+    width: 77px;
+    height: 77px;
+    background: url('../images/css_sprites_2.png') -10px -10px;
+}
+
+.bg-icon2__1_ {
+    display: inline-block;
+    margin-right: 32px;
+    width: 77px;
+    height: 77px;
+    background: url('../images/css_sprites_2.png') -107px -10px;
+}
+
+.bg-icon1_copy {
+    display: inline-block;
+    margin-right: 32px;
+    width: 77px;
+    height: 77px;
+    background: url('../images/css_sprites_2.png') -10px -107px;
+}
+
+.bg-icon2_copy_2 {
+    display: inline-block;
+    margin-right: 32px;
+    width: 77px;
+    height: 77px;
+    background: url('../images/css_sprites_2.png') -107px -107px;
+}
+
+.b3-section1 {
+    display: inline-block;
+    margin-top: 50px;
+
+}
+
+.b3-section1 p:first-child {
+    color: #2a2d3a;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.b3-section1 p:first-child span {
+    margin-left: -100px;
+}
+
+.block-3 {
+    background: url("../images/b3-bg1.png") no-repeat left -80px top, url("../images/b3-bg2.png") no-repeat center top 215px, url("../images/b3-bg7.png") no-repeat right -321px top 1473px;
+}
+
+.block-3 .b3-section2 .b3-s2-tab {
+    box-shadow: 1px 2px 3px rgba(100, 103, 108, 0.09);
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: 19px 26px 1px 26px;
+    margin-top: 10px;
+}
+
+.block-3 .b3-section2 .b3-s2-tab p {
+    color: #2a2d3a;
+    font-family: "Open Sans";
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.block-3 .b3-section2 .b3-s2-tab p span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 23px;
+    height: 23px;
+    background: #dff3fb;
+    border-radius: 50%;
+    color: #0996cd;
+    font-size: 11px;
+}
+
+.block-3 .b3-section3 {
+    background: url("../images/b3-bg3.png") no-repeat right top, url("../images/b3-bg4.png") no-repeat left 30% bottom;
+    margin-right: -140px;
+    padding-right: 140px;
+    padding-top: 55px;
+}
+
+.block-3 .b3-section3 img {
+    cursor: pointer;
+}
+
+.block-3 .b3-section4 .line-title {
+    margin-top: 90px !important;
+}
+
+.b3-section6, .b3-section5 {
+    margin-top: 45px;
+}
+
+.block-3 .b3-section5 h5 {
+    color: #30333f;
+    font-family: "Gentium Book Basic";
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 45px;
+}
+
+.bold-p {
+    color: #30333f;
+    font-family: "Open Sans - Semibold";
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.block-3 .b3-section8 p {
+    color: #30333f;
+    font-family: "Gentium Book Basic";
+    font-size: 18px;
+    font-weight: 600;
+    font-style: italic;
+    line-height: 28px;
+
+}
+
+.block-3 .b3-section8 {
+    padding-right: 145px;
+    background: url("../images/b3-bg5.png") no-repeat right bottom, url("../images/b3-bg6.png") no-repeat right top;
+    padding-bottom: 130px;
+}
+
+.block-4 .b4-section1 p:first-child {
+    color: #30333f;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+}
+
+.title-p {
+    color: #30333f;
+    font-family: "Gentium Book Basic";
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 22px;
+    /* Text style for "G, aylon V" */
+    letter-spacing: 0.42px;
+}
+
+.block-4 .b4-section1 a {
+    color: #30333f;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-right: 30px;
+}
+
+.block-4 .b4-section1 a:nth-child(2) {
+    opacity: 0.4;
+}
+
+.block-4 .b4-section1 {
+    padding: 49px 54px;
+    box-shadow: 0 3px 40px rgba(150, 150, 150, 0.14);
+    border-radius: 20px;
+    background-color: #ffffff;
+    margin-top: 30px;
+}
+
+.block-4 .b4-section2 {
+    margin-top: 30px;
+}
+
+.block-4 .b4-section1 i {
+    color: #ffc863;
+}
+
+.block-4 {
+    background: url("../images/b4-bg1.png") no-repeat left 89px top 108px, url("../images/b4-bg2.png") no-repeat right center;
+    padding-bottom: 120px;
+}
+
+.block-5 .b5-section1 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.block-5 .b5-section1 p {
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.block-5 .b5-section1 .btn-order-now {
+    box-shadow: 0 2px 10px rgba(126, 80, 22, 0.21), 0 2px 0 1px rgba(126, 80, 22, 0.09);
+    background: none;
+    background-color: #ffffff;
+    color: #fb8c00;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top: 10px;
+    width: 180px;
+}
+.block-5 {
+    background: url("../images/b5-bg2.png") no-repeat left -50px bottom -50px, url("../images/b5-bg1.png") no-repeat right -50px bottom -50px, url("../images/b5-bg3.png") no-repeat center;
+
+    background-color: #ff9e24;
+
 }
