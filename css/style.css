@@ -500,9 +500,115 @@ a:hover {
     padding-top: 10px;
     width: 180px;
 }
+
 .block-5 {
     background: url("../images/b5-bg2.png") no-repeat left -50px bottom -50px, url("../images/b5-bg1.png") no-repeat right -50px bottom -50px, url("../images/b5-bg3.png") no-repeat center;
-
     background-color: #ff9e24;
+}
 
+.block-6 {
+    background: #1f2028;
+    padding-top: 100px;
+    padding-bottom: 90px;
+}
+
+.block-6 .b6-logo {
+    margin-bottom: 60px;
+}
+
+.block-6 p {
+    color: #6d6e75;
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    text-transform: uppercase;
+}
+
+.block-6 .b6-phone, .block-6 .b6-email, .b6-adrress, .b6-social {
+    margin-bottom: 30px;
+}
+
+.block-6 .b6-phone div p, .block-6 .b6-email div p, .b6-adrress div p {
+    color: #f6f9f9;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.block-6 .b6-social i {
+    color: #ffffff;
+    font-size: 19px;
+    margin-left: 10px;
+}
+
+.block-6 .b6-title p {
+    color: #ff9e24;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 16px;
+    text-transform: uppercase;
+}
+
+.block-6 .b6-service ul, .block-6 .b6-menu ul {
+    padding-left: 0;
+}
+
+.block-6 .b6-service ul li a {
+    color: #6d6e75;
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.block-6 .b6-menu ul li a {
+    color: #f6f9f9;
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.block-6 .b6-section1 p {
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.block-6 .b6-section2 p {
+    color: #6d6e75;
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 19px;
+}
+
+.block-6 .b6-section3 ul li {
+    border-right: 1px solid #505255;
+
+}
+
+.block-6 .b6-section3 ul li a {
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 21px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.border-none {
+    border: none !important;
+}
+
+.b6-footer {
+    padding-top: 60px;
+    border-top: 1px solid #6d6e75;
+    margin-top: 60px;
 }
