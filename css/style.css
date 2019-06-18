@@ -406,10 +406,17 @@ a:hover {
 
 .bold-p {
     color: #30333f;
+    font-family: "Open Sans";
+    font-size: 15px;
+    font-weight: 400;
+    /* Text style for "A, re you" */
     font-family: "Open Sans - Semibold";
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 600;
-    line-height: 28px;
+    line-height: 27px;
+    /* Text style for "Place you" */
+    font-family: "Open Sans";
+    line-height: 26px;
 }
 
 .block-3 .b3-section8 p {
@@ -865,4 +872,98 @@ a:hover {
 
 .page-item:last-child .page-link, .page-item.disabled .page-link {
     border-radius: 0;
+}
+.free-essays-s1 h3{
+    color: #30333f;
+    font-family: Gentium;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 42px;
+    /* Text style for "Free colle" */
+    letter-spacing: -0.6px;
+}
+.free-essays-s1 h5{
+    color: #30333f;
+    font-family: "Gentium Book Basic";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 42px;
+    /* Text style for "Profession" */
+    letter-spacing: -0.48px;
+}
+.blue-p{
+    color: #136bb5;
+    font-family: "Gentium";
+    font-size: 22px;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 31px;
+    padding: 0 38px;
+    text-align: center;
+}
+.free-essays-s1 ul li{
+    list-style: none;
+    background: url("../images/free-essays-img1.png") no-repeat left top 8px;
+    padding-left: 30px;
+    color: #004f99;
+    font-family: "Open Sans";
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 25px;
+    /* Text style for "Feeling em" */
+    letter-spacing: -0.3px;
+}
+.bg-icon3_copy_7 {
+    width: 27px; height: 31px;
+    background: url('../images/free-essays.png') -10px -10px;
+}
+.bg-icon3_copy_3 {
+    width: 28px; height: 24px;
+    background: url('../images/free-essays.png') -10px -106px;
+}
+.bg-icon3_copy_4 {
+    width: 30px; height: 24px;
+    background: url('../images/free-essays.png') -59px -61px;
+}
+.bg-icon3_copy_2 {
+    width: 29px; height: 26px;
+    background: url('../images/free-essays.png') -106px -10px;
+}
+.bg-icon3_copy_5 {
+    width: 29px; height: 27px;
+    background: url('../images/free-essays.png') -57px -10px;
+}
+.bg-icon3__1_ {
+    width: 29px; height: 25px;
+    background: url('../images/free-essays.png') -10px -61px;
+}
+.free-essays-s2{
+    box-shadow: 0 1px 4px rgba(100, 103, 108, 0.26);
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: 19px;
+    margin-bottom: 15px;
+}
+.free-essays-s2 p{
+    color: #2a2d3a;
+    font-family: "Open Sans";
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: -0.3px;
+    margin-bottom: 0;
+}
+.free-essays-s2 div div{
+    margin-right: 15px;
+}
+.free-essays-s2 span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 23px;
+    height: 23px;
+    background: #dff3fb;
+    border-radius: 50%;
+    color: #0996cd;
+    font-size: 11px;
+    margin-right: 15px;
 }
