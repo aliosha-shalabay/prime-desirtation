@@ -831,3 +831,38 @@ a:hover {
     color: #ffffff!important;
     margin-top: 0;
 }
+.page-link {
+    position: relative;
+    display: block;
+    padding: 0;
+    margin-left: 30px;
+    line-height: 1.25;
+    color: #3c3d3e;
+    background-color: #fff;
+    border: none;
+    padding: 5px 10px;
+
+}
+
+.pagination {
+    margin-top: 50px;
+    margin-bottom: 100px;
+
+}
+
+.page-link:hover {
+    padding: 5px 10px;
+    border-radius: 50%;
+    color: #136bb5;
+}
+
+.my-active {
+    background-color: #136bb5;
+    padding: 5px 10px;
+    border-radius: 50%;
+    color: white;
+}
+
+.page-item:last-child .page-link, .page-item.disabled .page-link {
+    border-radius: 0;
+}
