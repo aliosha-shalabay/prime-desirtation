@@ -19,6 +19,11 @@ h4 {
     line-height: 56px;
 }
 
+ul {
+    padding-left: 30px;
+    padding-right: 15px;
+}
+
 .btn-order-now {
     box-shadow: 0 2px 5px rgba(237, 147, 33, 0.3);
     background-color: #fb8c00;
@@ -611,4 +616,218 @@ a:hover {
     padding-top: 60px;
     border-top: 1px solid #6d6e75;
     margin-top: 60px;
+}
+
+.blog-1 nav ol.breadcrumb {
+    background: none;
+    padding: 0;
+}
+
+.blog-1 nav ol.breadcrumb li {
+    color: #595a60;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.blog-1 nav ol.breadcrumb li a {
+    color: #595a60;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.blog-1 {
+    padding-top: 70px;
+    padding-bottom: 85px;
+    background: url("../images/blog-img-1.png") no-repeat left -65px top 40px, url("../images/blog-img-2.png") no-repeat right 80px top 50px, url("../images/blog-img-3.png") no-repeat center top -250px;
+}
+
+.bg-blog {
+    background-color: #f2fafe;
+    box-shadow: 0 1px 3px rgba(83, 94, 105, 0.32);
+    margin-bottom: 30px;
+}
+
+.blog-2-s1 {
+    padding: 30px 15px 5px 0px;
+}
+
+.blog-2-s1 h3 {
+    color: #136bb5;
+    font-family: "Gentium Book Basic";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.blog-2-s1 div a {
+    color: #136bb5;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.blog-2-s1 div p i {
+    margin-left: 12px;
+}
+
+.pl-0 {
+    padding-left: 0 !important;
+}
+
+.blog-2-s3 h3 {
+    border-radius: 10px 10px 0 0;
+    background-color: #8dcdff;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 45px;
+    text-transform: uppercase;
+    padding: 8px 30px 5px 30px;
+    margin-bottom: 0;
+}
+
+.blog-2-s3 ul li {
+    color: #004f99;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 45px;
+    /* Text style for "Dissertati" */
+    letter-spacing: -0.14px;
+    border-bottom: 1px solid #e6f5fe;;
+}
+
+.blog-2-s3 ul li i {
+    opacity: 0.4;
+    margin-top: 15px;
+}
+
+.blog-2-s3 ul {
+    border-radius: 0 0 10px 10px;
+    border: 3px solid #e6f5fe;
+    margin-bottom: 30px;
+}
+
+.blog-2-s4 span a {
+    padding: 5px 10px;
+    border-radius: 3px;
+    background-color: #e0f3fc;
+    margin: 5px 5px;
+    display: inline-block;
+}
+
+.blog-2-s4 {
+    margin-bottom: 30px;
+}
+
+.baner-1 {
+    padding: 40px 47px;
+    background:url("../images/baner1-img1.png") no-repeat left top,
+    url("../images/baner1-img3.png") no-repeat left top 240px,
+    url("../images/baner1-img4.png") no-repeat right top 210px,
+    #f2fafe url("../images/baner1-img5.png") no-repeat left 47% top 217px;
+    #f2fafe url("../images/baner1-img5.png") no-repeat left 47% top 217px;
+    border-radius: 10px;
+    box-shadow: inset 0 0 0 rgba(0, 49, 84, 0.1);
+    margin-bottom: 30px;
+}
+
+.baner-1 h3 {
+    color: #30333f;
+    font-family: "Gentium Book Basic";
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+    /* Text style for "Words to T" */
+    letter-spacing: -0.6px;
+}
+
+.baner-1 p:nth-child(2) {
+    color: #30333f;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.baner-1 p:nth-child(3) {
+    color: #16a6da;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 27px;
+    /* Text style for "Use our ne" */
+    letter-spacing: -0.32px;
+}
+
+.baner-1 .btn-order-now {
+    display: block;
+    margin: 0 auto;
+    color: #ffffff !important;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    width: 80%;
+    padding-top: 9px;
+    margin-top: 20px;
+}
+.baner-2{
+    background:url("../images/baner2-img1.png") no-repeat left top;
+    padding: 33px 0 33px 33px;
+}
+.baner-2 h3{
+    color: #1d319d;
+    font-family: "Open Sans";
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 23.7px;
+    text-transform: uppercase;
+    /* Text style for "15%OFF" */
+    letter-spacing: -1.09px;
+}
+.baner-2 p{
+    color: #136bb5;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 36px;
+}
+.baner-2 .btn-order-now{
+    margin-top: 0;
+    box-shadow: none;
+    background: white;
+    color: #fb8c00!important;
+    font-family: "Open Sans";
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top: 13px;
+}
+.baner-3{
+    background:url("../images/baner3-img1.png") no-repeat left top;
+    padding: 40px 30px 135px 35px;
+}
+.baner-3 h3{
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26px;
+    /* Text style for "Want a TOP" */
+    letter-spacing: -0.44px;
+}
+.baner-3 p{
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.baner-3 .btn-order-now{
+    color: #ffffff!important;
+    margin-top: 0;
 }
