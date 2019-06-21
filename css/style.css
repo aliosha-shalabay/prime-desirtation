@@ -1161,3 +1161,80 @@ a:hover {
     border-bottom: 1px solid #e6f5fe;
     margin-bottom: 15px;
 }
+.p-contact-s1{
+    color: #136bb5;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+}
+.bg-3_layers {
+    width: 134px; height: 127px;
+    background: url('../images/css_sprites3.png') -10px -10px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.bg-3_layers__1_ {
+    width: 134px; height: 127px;
+    background: url('../images/css_sprites3.png') -164px -10px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.bg-3_layers__2_ {
+    width: 134px; height: 127px;
+    background: url('../images/css_sprites3.png') -10px -157px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.contact-s1 .baner-4{
+    margin-top: 30px;
+}
+.contact-s1 .baner-5{
+    background: url("../images/contact-img1.png") no-repeat right bottom;
+    padding: 15px;
+    padding-left: 285px;
+    margin-bottom: 30px;
+
+}
+.supor p:first-child{
+    color: #07477d;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 32px;
+    text-transform: uppercase;
+    /* Text style for "24/7 Suppo" */
+    letter-spacing: -0.32px;
+    margin-bottom: 0;
+}
+.supor p:last-child{
+    color: #136bb5;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    /* Text style for "Have you g" */
+    letter-spacing: -0.36px;
+}
+.contact-s1-phone p{
+    color: #07477d;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 25px;
+    margin-bottom: 0;
+    letter-spacing: -0.32px;
+}
+.contact-s1-btn .btn-order-now{
+    margin-top: 0;
+    width: 110px;
+}
+.contact-s1-btn .btn-order-now:first-child{
+    box-shadow: 0 2px 5px rgba(113, 209, 91, 0.3);
+    background-color: #fb8c00;
+    background-image: linear-gradient(to top, #60bb47 0%, #71d15b 100%);
+
+}
+.contact-s1-phone{
+    padding-left: 15px;
+}
