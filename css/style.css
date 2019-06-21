@@ -732,7 +732,7 @@ a:hover {
 
 .baner-1 {
     padding: 40px 47px;
-    background:url("../images/baner1-img1.png") no-repeat left top,
+    background: url("../images/baner1-img1.png") no-repeat left top,
     url("../images/baner1-img3.png") no-repeat left top 240px,
     url("../images/baner1-img4.png") no-repeat right top 210px,
     #f2fafe url("../images/baner1-img5.png") no-repeat left 47% top 217px;
@@ -782,11 +782,13 @@ a:hover {
     padding-top: 9px;
     margin-top: 20px;
 }
-.baner-2{
-    background:url("../images/baner2-img1.png") no-repeat left top;
+
+.baner-2 {
+    background: url("../images/baner2-img1.png") no-repeat left top;
     padding: 33px 0 33px 33px;
 }
-.baner-2 h3{
+
+.baner-2 h3 {
     color: #1d319d;
     font-family: "Open Sans";
     font-size: 36px;
@@ -796,29 +798,33 @@ a:hover {
     /* Text style for "15%OFF" */
     letter-spacing: -1.09px;
 }
-.baner-2 p{
+
+.baner-2 p {
     color: #136bb5;
     font-family: "Open Sans";
     font-size: 16px;
     font-weight: 400;
     line-height: 36px;
 }
-.baner-2 .btn-order-now{
+
+.baner-2 .btn-order-now {
     margin-top: 0;
     box-shadow: none;
     background: white;
-    color: #fb8c00!important;
+    color: #fb8c00 !important;
     font-family: "Open Sans";
     font-size: 10px;
     font-weight: 700;
     text-transform: uppercase;
     padding-top: 13px;
 }
-.baner-3{
-    background:url("../images/baner3-img1.png") no-repeat left top;
+
+.baner-3 {
+    background: url("../images/baner3-img1.png") no-repeat left top;
     padding: 40px 30px 135px 35px;
 }
-.baner-3 h3{
+
+.baner-3 h3 {
     color: #ffffff;
     font-family: "Open Sans";
     font-size: 22px;
@@ -827,17 +833,20 @@ a:hover {
     /* Text style for "Want a TOP" */
     letter-spacing: -0.44px;
 }
-.baner-3 p{
+
+.baner-3 p {
     color: #ffffff;
     font-family: "Open Sans";
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
 }
-.baner-3 .btn-order-now{
-    color: #ffffff!important;
+
+.baner-3 .btn-order-now {
+    color: #ffffff !important;
     margin-top: 0;
 }
+
 .page-link {
     position: relative;
     display: block;
@@ -873,7 +882,8 @@ a:hover {
 .page-item:last-child .page-link, .page-item.disabled .page-link {
     border-radius: 0;
 }
-.free-essays-s1 h3{
+
+.free-essays-s1 h3 {
     color: #30333f;
     font-family: Gentium;
     font-size: 30px;
@@ -882,7 +892,8 @@ a:hover {
     /* Text style for "Free colle" */
     letter-spacing: -0.6px;
 }
-.free-essays-s1 h5{
+
+.free-essays-s1 h5 {
     color: #30333f;
     font-family: "Gentium Book Basic";
     font-size: 24px;
@@ -891,7 +902,8 @@ a:hover {
     /* Text style for "Profession" */
     letter-spacing: -0.48px;
 }
-.blue-p{
+
+.blue-p {
     color: #136bb5;
     font-family: "Gentium";
     font-size: 22px;
@@ -901,7 +913,8 @@ a:hover {
     padding: 0 38px;
     text-align: center;
 }
-.free-essays-s1 ul li{
+
+.free-essays-s1 ul li {
     list-style: none;
     background: url("../images/free-essays-img1.png") no-repeat left top 8px;
     padding-left: 30px;
@@ -913,38 +926,52 @@ a:hover {
     /* Text style for "Feeling em" */
     letter-spacing: -0.3px;
 }
+
 .bg-icon3_copy_7 {
-    width: 27px; height: 31px;
+    width: 27px;
+    height: 31px;
     background: url('../images/free-essays.png') -10px -10px;
 }
+
 .bg-icon3_copy_3 {
-    width: 28px; height: 24px;
+    width: 28px;
+    height: 24px;
     background: url('../images/free-essays.png') -10px -106px;
 }
+
 .bg-icon3_copy_4 {
-    width: 30px; height: 24px;
+    width: 30px;
+    height: 24px;
     background: url('../images/free-essays.png') -59px -61px;
 }
+
 .bg-icon3_copy_2 {
-    width: 29px; height: 26px;
+    width: 29px;
+    height: 26px;
     background: url('../images/free-essays.png') -106px -10px;
 }
+
 .bg-icon3_copy_5 {
-    width: 29px; height: 27px;
+    width: 29px;
+    height: 27px;
     background: url('../images/free-essays.png') -57px -10px;
 }
+
 .bg-icon3__1_ {
-    width: 29px; height: 25px;
+    width: 29px;
+    height: 25px;
     background: url('../images/free-essays.png') -10px -61px;
 }
-.free-essays-s2{
+
+.free-essays-s2 {
     box-shadow: 0 1px 4px rgba(100, 103, 108, 0.26);
     border-radius: 5px;
     background-color: #ffffff;
     padding: 19px;
     margin-bottom: 15px;
 }
-.free-essays-s2 p{
+
+.free-essays-s2 p {
     color: #2a2d3a;
     font-family: "Open Sans";
     font-size: 15px;
@@ -952,9 +979,11 @@ a:hover {
     letter-spacing: -0.3px;
     margin-bottom: 0;
 }
-.free-essays-s2 div div{
+
+.free-essays-s2 div div {
     margin-right: 15px;
 }
+
 .free-essays-s2 span {
     display: flex;
     justify-content: center;
@@ -966,4 +995,39 @@ a:hover {
     color: #0996cd;
     font-size: 11px;
     margin-right: 15px;
+}
+
+.baner-4 {
+    background: url("../images/baner4-img1.png") no-repeat left top;
+    height: 140px;
+    padding: 33px 50px;
+    margin-bottom: 30px;
+}
+
+.baner-4 div p:first-child {
+    color: #136bb5;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    /* Text style for "Our outsta" */
+    font-family: "Open Sans";
+    letter-spacing: -0.36px;
+}
+
+.baner-4 div p:last-child {
+    color: #07477d;
+    font-family: "Open Sans";
+    font-weight: 700;
+    letter-spacing: -0.36px;
+    font-size: 18px;
+
+}
+
+.baner-4 a {
+    color: white !important;
+}
+.baner-4 .btn-order-now{
+    margin-right: 0;
+    margin-top: 10px;
 }
