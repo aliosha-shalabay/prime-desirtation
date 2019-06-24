@@ -825,9 +825,9 @@ a:hover {
 }
 
 .baner-3 h3 {
-    color: #ffffff!important;
-    font-family: "Open Sans"!important;
-    font-size: 22px!important;
+    color: #ffffff !important;
+    font-family: "Open Sans" !important;
+    font-size: 22px !important;
     font-weight: 700;
     line-height: 26px;
     /* Text style for "Want a TOP" */
@@ -925,6 +925,7 @@ a:hover {
     line-height: 25px;
     /* Text style for "Feeling em" */
     letter-spacing: -0.3px;
+    margin-bottom: 13px;
 }
 
 .bg-icon3_copy_7 {
@@ -1267,7 +1268,8 @@ a:hover {
     background: url("../images/graph_copy.png") no-repeat right bottom, url("../images/graph_copy_2.png") no-repeat top left;
     padding: 33px;
 }
-.mb-90{
+
+.mb-90 {
     margin-bottom: 90px;
 
 }
@@ -1316,6 +1318,157 @@ a:hover {
 .discount-s1-of a.btn-order-now:hover {
     color: white;
 }
-.mt-60{
+
+.mt-60 {
     margin-top: 60px;
+}
+
+.price-s1 {
+    border: 1px solid #e0f3fc;
+    padding: 16px;
+    margin-top: 15px;
+}
+
+.price-s1 input {
+    height: auto;
+}
+
+.price-s1 p {
+    margin-bottom: 0;
+}
+
+.price-rodio:checked {
+    background: red;
+}
+
+.price-s1 span {
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: -0.32px;
+}
+
+.order-total {
+    color: #2a2d3a;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 700;
+    /* Text style for "Order tota" */
+    letter-spacing: -0.36px;
+    margin-top: 35px;
+}
+
+.order-total span {
+    color: #fb8d01;
+    letter-spacing: -0.36px;
+}
+
+.prices-s1 h3 {
+    font-family: "Gentium";
+    color: #30333f;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 42px;
+    /* Text style for "We know yo" */
+    letter-spacing: -0.6px;
+    margin: 19px 0;
+}
+
+.ml-30 {
+    margin-left: -30px !important;
+}
+
+.price-s2 {
+    padding: 41px 41px 37px 55px;
+    background-color: #f2fafe;
+    margin-top: 13px;
+}
+
+.price-s2 p {
+    color: #30333f;
+    font-family: "Gentium";
+    font-size: 18px;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 28px;
+}
+
+.price-s2 p.line-title {
+    background: #5fbdde;
+    margin-top: -40px !important;
+    margin-bottom: 38px !important;
+}
+
+.prices-s1 {
+    margin-bottom: 60px;
+}
+
+.order-s1 span {
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-color: #67bcff;
+    border-radius: 50%;
+    color: white;
+}
+
+.order-s1 p {
+    color: #30333f;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 22px;
+    /* Text style for "Fill in yo" */
+    letter-spacing: -0.28px;
+    margin-bottom: 0;
+}
+
+.order-s1 i {
+    color: #67bcff;
+    font-size: 14px;
+}
+
+.order-s2 {
+    box-shadow: 0 22px 40px rgba(82, 121, 174, 0.09);
+    border-radius: 10px;
+    background-color: #ffffff;
+    padding: 18px;
+}
+
+.order-page-head ul li {
+    padding-left: 44px;
+}
+
+.order-page-head ul li span.blue-order {
+    color: #1d71b8;
+    font-weight: 600;
+}
+
+.order-page-head ul li i {
+    margin-left: -44px;
+    margin-right: 15px;
+    background-color: white;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    color: #98d188;
+    padding-top: 5px;
+    padding-left: 5px;
+    font-size: 13px;
+}
+
+.order-page-head {
+    padding-top: 70px;
+    padding-bottom: 145px;
+    background: url(../images/order-img4.png) no-repeat right 53px top 230px / 135px,
+    url(../images/order-img2.png) no-repeat left 240px top 300px / 154px,
+    url(../images/order-img3.png) no-repeat right 328px top 300px / 78px,
+    url(../images/order-img1.png) no-repeat left -53px top 206px / 250px,
+    url(../images/blog-img-1.png) no-repeat left -65px top 40px,
+    url(../images/blog-img-2.png) no-repeat right 80px top 50px,
+    url(../images/blog-img-3.png) no-repeat center top -65px;
+}
+
+.order-page-head ul {
+    margin-top: 30px;
 }
