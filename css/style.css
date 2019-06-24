@@ -405,14 +405,14 @@ a:hover {
 }
 
 .bold-p {
-    color: #30333f;
+    color: #30333f!important;
     font-family: "Open Sans";
-    font-size: 15px;
-    font-weight: 400;
+    font-size: 15px!important;
+    font-weight: 400!important;
     /* Text style for "A, re you" */
     font-family: "Open Sans - Semibold";
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 600!important;
     line-height: 27px;
     /* Text style for "Place you" */
     font-family: "Open Sans";
@@ -1471,4 +1471,48 @@ a:hover {
 
 .order-page-head ul {
     margin-top: 30px;
+}
+.order-page-s1 h3{
+    color: #136bb5;
+    font-family: "Gentium";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 56px;
+}
+.order-page-s1{
+    margin-top: -90px;
+}
+.order-page-s1 label{
+    color: #9ea1a4;
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-weight: 400;
+}
+.order-page-s1 input, .order-page-s1 select, .order-page-s1 textarea{
+    border: 1px solid #e0e5e8;
+    background-color: #fafcfc;
+    color: #9ea1a4;
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-weight: 400;
+}
+.italic-p{
+    color: #2a2d3a;
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-style: italic;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.order-page-s1 .radios-as-buttons label{
+    padding: 7px 5px 10px 5px;
+}
+.order-page-s1 .radios-as-buttons{
+    height: 34px;
+}
+.group-number .italic-p{
+    margin-top: 0;
+}
+.mr-15{
+    margin-right: 15px;
 }
