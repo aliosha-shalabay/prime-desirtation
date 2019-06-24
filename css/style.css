@@ -825,9 +825,9 @@ a:hover {
 }
 
 .baner-3 h3 {
-    color: #ffffff;
-    font-family: "Open Sans";
-    font-size: 22px;
+    color: #ffffff!important;
+    font-family: "Open Sans"!important;
+    font-size: 22px!important;
     font-weight: 700;
     line-height: 26px;
     /* Text style for "Want a TOP" */
@@ -1161,42 +1161,52 @@ a:hover {
     border-bottom: 1px solid #e6f5fe;
     margin-bottom: 15px;
 }
-.p-contact-s1{
+
+.p-contact-s1 {
     color: #136bb5;
     font-family: "Open Sans";
     font-size: 14px;
     font-weight: 400;
     line-height: 21px;
 }
+
 .bg-3_layers {
-    width: 134px; height: 127px;
+    width: 134px;
+    height: 127px;
     background: url('../images/css_sprites3.png') -10px -10px;
     margin: 0 auto;
     margin-bottom: 20px;
 }
+
 .bg-3_layers__1_ {
-    width: 134px; height: 127px;
+    width: 134px;
+    height: 127px;
     background: url('../images/css_sprites3.png') -164px -10px;
     margin: 0 auto;
     margin-bottom: 20px;
 }
+
 .bg-3_layers__2_ {
-    width: 134px; height: 127px;
+    width: 134px;
+    height: 127px;
     background: url('../images/css_sprites3.png') -10px -157px;
     margin: 0 auto;
     margin-bottom: 20px;
 }
-.contact-s1 .baner-4{
+
+.contact-s1 .baner-4 {
     margin-top: 30px;
 }
-.contact-s1 .baner-5{
+
+.contact-s1 .baner-5 {
     background: url("../images/contact-img1.png") no-repeat right bottom;
     padding: 15px;
     padding-left: 285px;
     margin-bottom: 30px;
 
 }
-.supor p:first-child{
+
+.supor p:first-child {
     color: #07477d;
     font-family: "Open Sans";
     font-size: 16px;
@@ -1206,7 +1216,8 @@ a:hover {
     letter-spacing: -0.32px;
     margin-bottom: 0;
 }
-.supor p:last-child{
+
+.supor p:last-child {
     color: #136bb5;
     font-family: "Open Sans";
     font-size: 18px;
@@ -1215,7 +1226,8 @@ a:hover {
     /* Text style for "Have you g" */
     letter-spacing: -0.36px;
 }
-.contact-s1-phone p{
+
+.contact-s1-phone p {
     color: #07477d;
     font-family: "Open Sans";
     font-size: 16px;
@@ -1224,16 +1236,86 @@ a:hover {
     margin-bottom: 0;
     letter-spacing: -0.32px;
 }
-.contact-s1-btn .btn-order-now{
+
+.contact-s1-btn .btn-order-now {
     margin-top: 0;
     width: 110px;
 }
-.contact-s1-btn .btn-order-now:first-child{
+
+.contact-s1-btn .btn-order-now:first-child {
     box-shadow: 0 2px 5px rgba(113, 209, 91, 0.3);
     background-color: #fb8c00;
     background-image: linear-gradient(to top, #60bb47 0%, #71d15b 100%);
 
 }
-.contact-s1-phone{
+
+.contact-s1-phone {
     padding-left: 15px;
+}
+
+.discount-s1 h3 {
+    color: #30333f;
+    font-family: "Gentium";
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 42px;
+    /* Text style for "Flexible P" */
+    letter-spacing: -0.6px;
+}
+
+.discount-s1-of {
+    background: url("../images/graph_copy.png") no-repeat right bottom, url("../images/graph_copy_2.png") no-repeat top left;
+    padding: 33px;
+}
+.mb-90{
+    margin-bottom: 90px;
+
+}
+
+.discount-s1-of h5 {
+    border: 5px solid #ffffff;
+    color: #fb8c00;
+    font-family: "Open Sans";
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 23.7px;
+    text-transform: uppercase;
+    /* Text style for "5%OFF" */
+    letter-spacing: -1.09px;
+}
+
+.discount-s1-of p {
+    color: #596b8e;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 36px;
+    /* Text style for "for more t" */
+    font-family: "Open Sans";
+    letter-spacing: -0.32px;
+}
+
+.discount-s1-of p span {
+    font-family: "Open Sans";
+    font-weight: 600;
+    letter-spacing: -0.32px;
+}
+
+.discount-s1-of a.btn-order-now {
+    background-image: none;
+    background-color: #136bb5 !important;
+    color: white;
+    margin-top: 0;
+}
+
+.discount-s1-of a.btn-order-now.orange-color {
+    background-color: #ffffff !important;
+    color: #fb8c00 !important;
+}
+
+.discount-s1-of a.btn-order-now:hover {
+    color: white;
+}
+.mt-60{
+    margin-top: 60px;
 }
