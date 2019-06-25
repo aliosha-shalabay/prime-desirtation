@@ -1552,7 +1552,7 @@ input[type=file] + label {
     margin-bottom: 30px;
 }
 
-.input-group-prepend {
+.order-s3 .input-group-prepend {
     height: 33px;
     width: 145px;
 }
