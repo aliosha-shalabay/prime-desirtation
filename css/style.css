@@ -1547,6 +1547,202 @@ input[type=file] + label {
     border-radius: 46px;
     padding: 5px 38px;
 }
-.order-page{
+
+.order-page {
+    margin-bottom: 30px;
+}
+
+.input-group-prepend {
+    height: 33px;
+    width: 145px;
+}
+
+.input-group-text {
+    width: 100%;
+}
+
+.input-group-text.orange-btn-form {
+    background-color: #f78a00;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 90px;
+    /* Text style for "Apply for" */
+    letter-spacing: 0.24px;
+    text-align: center;
+}
+
+.input-group-text.blue-btn-form {
+    background-color: #1369b2;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 90px;
+    /* Text style for "Apply for" */
+    letter-spacing: 0.24px;
+    text-align: center;
+}
+
+.order-s3 p {
+    color: #fb8c00;
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 35px;
+    /* Text style for "Your disco" */
+    letter-spacing: 0.13px;
+}
+
+.order-s5 {
+    border: 1px solid #e0e5e8;
+    background-color: #ffffff;
+    padding: 10px 60px;
+    margin-bottom: 30px;
+    height: 150px;
+}
+
+.order-s5 label {
+    color: #2a2d3a;
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 19px;
+    /* Text style for "Get order" */
+    letter-spacing: -0.13px;
+    margin-top: 40px;
+}
+
+.order-s5 input {
+    margin-top: 15px;
+}
+
+.order-s5 p {
+    color: #fb8c00;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 40px;
+    text-transform: uppercase;
+}
+
+.bold-blue-p {
+    color: #136bb5;
+    font-family: "Open Sans";
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.price-p {
+    color: #fb8c00;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.price-discount-p {
+    color: #2a2d3a;
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    text-decoration: line-through;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.baner-6 {
+    border: 1px solid #d9eaf8;
+    background-color: #ffffff;
+    margin-bottom: 15px;
+}
+
+.order-s6 .form-group {
+    margin-bottom: 0;
+}
+
+.order-s6 {
+    padding: 43px 30px;
+}
+
+.order-s7 {
+    background-color: #fb8c00;
+    padding: 45px 33px 21px 33px;
+}
+
+.order-s7-b1 p:nth-child(1) {
+    opacity: 0.5;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 22.89px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.order-s7-b1 p:nth-child(2) {
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.89px;
+}
+
+.order-s7-b2 p {
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.order-s7-b2 p:nth-child(2) {
+    font-size: 23px;
+}
+
+.order-s8 button {
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 40.65px;
+    text-transform: uppercase;
+    /* Text style for "Proceed" */
+    letter-spacing: 0.13px;
+}
+
+.order-s8 .btn-order-now {
+    width: 200px;
+    height: 54px;
+}
+
+.order-s8 p {
+    color: #2a2d3a;
+    font-family: "Open Sans";
+    font-size: 22px;
+    font-weight: 400;
+    /* Text style for "Order tota" */
+    font-family: "Open Sans";
+    letter-spacing: -0.22px;
+    margin-top: 28px;
+}
+
+.order-s8 p span {
+    color: #136bb5;
+    font-family: "Open Sans";
+    font-weight: 700;
+}
+
+.order-s9 {
+    background: #e0f3fc url("../images/order-imag5.png") no-repeat left top;
+    border-radius: 5px;
+    padding: 16px 0 2px 0;
     margin-bottom: 30px;
 }
