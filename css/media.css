@@ -4,24 +4,140 @@
 
 @media only screen and (max-width: 1690px) {
 
+    .block-1 .logo {
+        padding-left: 20px;
+    }
+
+    .block-1 .logo i {
+        margin-right: 20px;
+    }
+
+    .block-1 .nav ul li {
+        margin-left: 12px;
+    }
+
+    .block-1 .nav ul li a {
+        font-size: 11px;
+        letter-spacing: 0;
+    }
+
+    .block-1 .btn-order-now {
+        font-size: 13px;
+        padding-top: 10px;
+    }
 }
 
 @media only screen and (max-width: 1300px) {
+    .block-1 .b1-contact .b1-phone + div p {
+        font-size: 12px;
+    }
+
+    .block-1 .b1-contact .b1-phone div:nth-child(2) p {
+        font-size: 10px;
+    }
+
+    .block-1 .btn-order-now {
+        margin-right: 6px;
+        height: 37px;
+        padding-top: 6px;
+    }
+
+    .block-1 .nav ul li a {
+        font-size: 10px;
+    }
+
+    .block-1 .nav ul li:first-child {
+        margin-left: 0;
+    }
 
 }
 
 @media only screen and (max-width: 1199px) {
+    .block-1 .b1-contact .b1-phone div:nth-child(2) {
+        margin-left: 10px;
+    }
 
+    .b1-phone div:first-child p {
+        font-size: 12px;
+    }
+
+    .block-1 .btn-order-now {
+        font-size: 12px;
+    }
 }
 
 @media only screen and (max-width: 991px) {
+    .block-1 .b1-contact .b1-phone div:nth-child(2) p {
+        margin-left: 40px;
+    }
+
+    .block-1 .b1-contact .b1-phone div:nth-child(2) {
+        padding-top: 6px;
+    }
+
+    .block-1 .b1-contact {
+        padding-top: 0;
+    }
+
+    .block-1 .btn-order-now {
+        margin-top: 0;
+    }
+
+    .block-1 .logo, .block-1 .nav {
+        padding-top: 14px;
+    }
+
+    .block-1 .logo {
+        padding-bottom: 0;
+    }
+
+    .block-1 .b1-contact {
+        padding-top: 9px;
+    }
+
+    .block-1 .btn-order-now {
+        width: 100%;
+    }
 
 }
 
 @media only screen and (max-width: 767px) {
+    .block-1 .b1-contact .b1-phone div:nth-child(2) {
+        padding-top: 8px;
+    }
 
+    .block-1 .b1-contact .b1-phone div:nth-child(2) p {
+        margin-left: 11px;
+    }
+
+    .block-1 .nav ul li {
+        margin-left: 10px;
+    }
+
+    .block-1 .nav ul {
+        padding-right: 0;
+    }
+
+    .block-1 .nav ul li a {
+        font-size: 9px;
+    }
 }
 
 @media only screen and (max-width: 575px) {
+    .b1-phone div:first-child p {
+        margin-top: 8px;
+    }
 
+    .mobile-menu {
+        color: #8b969d;
+        margin-top: 10px;
+        font-size: 17px;
+        margin-left: 15px;
+        margin-right: 14px;
+    }
+
+    .block-1 .btn-order-now {
+        margin-bottom: 15px;
+        margin-top: 5px;
+    }
 }

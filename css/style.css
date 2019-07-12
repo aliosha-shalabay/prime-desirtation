@@ -29,11 +29,11 @@ ul {
     background-color: #fb8c00;
     background-image: linear-gradient(to top, #fb8c00 0%, #ff9e24 100%);
     color: white;
-    border-radius: 25px;
+    border-radius: .25rem;
     padding: 7px 0 13px 0;
     width: 125px;
     margin-right: 25px;
-    height: 44px;
+    height: 47px;
     margin-top: 24px;
 }
 
@@ -138,6 +138,7 @@ a:hover {
     border: 2px solid #c8dbe5;
     background: white;
     box-shadow: none;
+    border-radius: 25px;
 }
 
 .btn-login:hover {
@@ -185,11 +186,12 @@ a:hover {
     font-family: "Open Sans";
     font-size: 14px;
     font-weight: 400;
+    border: 1px solid #a2dfee;
     padding: 14px;
 }
 
 .block-2 .b2-section3 input {
-    border: 1px solid #e0e5e8;
+    border: 1px solid #a2dfee;
     background-color: #fafcfc;
     height: 50px;
     color: #9ea1a4;
@@ -197,6 +199,10 @@ a:hover {
     font-size: 14px;
     font-weight: 400;
     padding: 14px;
+}
+
+.input-group-append strong, .input-group-prepend strong {
+    color: #a2dfee;
 }
 
 .block-2 .b2-section3 p label {
@@ -213,14 +219,14 @@ a:hover {
 }
 
 .btn-outline-secondary {
-    border-color: #e0e5e8;
+    border-color: #a2dfee;
     color: #9ea1a4;
 }
 
 .btn-outline-secondary:hover {
     color: #fff;
     background-color: #dcdcdc;
-    border-color: #dcdcdc;
+    border-color: #a2dfee;
 }
 
 .block-2 {
@@ -660,8 +666,9 @@ a:hover {
     padding: 30px 15px 5px 0px;
 }
 
-.blog-2-s1 h3 {
-    color: #136bb5;
+.blog-2-s1 h3 a {
+    color: #4ca8c7;
+
     font-family: "Gentium Book Basic";
     font-size: 24px;
     font-weight: 700;
@@ -669,7 +676,7 @@ a:hover {
 }
 
 .blog-2-s1 div a {
-    color: #136bb5;
+    color: #4ca8c7;
     font-family: "Open Sans";
     font-size: 14px;
     font-weight: 600;
@@ -685,7 +692,7 @@ a:hover {
 
 .blog-2-s3 h3 {
     border-radius: 10px 10px 0 0;
-    background-color: #8dcdff;
+    background-color: #60bede;
     color: #ffffff;
     font-family: "Open Sans";
     font-size: 16px;
@@ -696,7 +703,7 @@ a:hover {
     margin-bottom: 0;
 }
 
-.blog-2-s3 ul li {
+.blog-2-s3 ul li a {
     color: #004f99;
     font-family: "Open Sans";
     font-size: 14px;
@@ -1745,4 +1752,38 @@ input[type=file] + label {
     border-radius: 5px;
     padding: 16px 0 2px 0;
     margin-bottom: 30px;
+}
+
+.b1-chat img {
+    margin-left: 8px;
+}
+
+.order-btn {
+    border: 2px solid #fae1ca;
+    background-color: white;
+    color: #ff983c;
+    background-image: none;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    box-shadow: none;
+    padding-top: 12px;
+    border-radius: 25px;
+}
+
+.order-btn:hover {
+    color: #ff983c;
+}
+
+.b2-section3 select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    background: url('../images/select_arrow.png') no-repeat right 7px center;
+    outline: 0;
+}
+
+.btn-outline-secondary:hover {
+    background-color: #d9f7ff;
 }
