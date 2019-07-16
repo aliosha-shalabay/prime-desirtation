@@ -27,13 +27,13 @@
 <body>
 <div class="container-fluid block-1">
     <div class="row">
-        <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3">
+        <div class="col-5 col-sm-3 col-md-2 col-lg-2 col-xl-2">
             <div class="logo d-flex">
                 <div><i class="fas fa-bars"></i></div>
                 <div><img src="images/logo.png" class="img-fluid"></div>
             </div>
         </div>
-        <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5">
+        <div class="d-sm-block d-none col-12 col-sm-9 col-md-10 col-lg-6 col-xl-5">
             <div class="nav">
                 <ul>
                     <li><a href="#">Home</a></li>
@@ -48,7 +48,7 @@
                 </ul>
             </div>
         </div>
-        <div class="col-12 col-sm-12 col-md-3 col-lg-2 col-xl-2">
+        <div class="col-7 col-sm-6 col-md-6 col-lg-2 col-xl-3">
             <div class="b1-contact d-flex">
                 <div class="b1-phone d-flex">
                     <div>
@@ -60,15 +60,16 @@
                     </div>
                 </div>
                 <div class="b1-chat">
-                    <div>
+                    <div class="d-flex">
                         <p>Life chat</p>
+                        <img src="images/chat.png" width="21" height="21">
                     </div>
                 </div>
             </div>
         </div>
-        <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 d-flex justify-content-between">
+        <div class="col-12 col-sm-6 col-md-6 col-lg-2 col-xl-2 d-flex justify-content-between">
             <a href="#" class="btn btn-order-now btn-login">Login</a>
-            <a href="#" class="btn btn-order-now">Order now</a>
+            <a href="#" class="btn btn-order-now order-btn">Order now</a>
         </div>
     </div>
 </div>
@@ -92,7 +93,9 @@
         <div class="row">
             <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
                 <div class="blog-2-s3">
-                    <h3>Categories</h3>
+                    <h3 class="d-flex justify-content-between">Categories <span
+                            class="d-flex justify-content-center align-items-center">-</span>
+                    </h3>
                     <ul>
                         <li><a href="#" class="d-flex justify-content-between">Thesis<i
                                 class="fas fa-angle-right"></i></a></li>
@@ -191,7 +194,66 @@
                         that your ideas have to be unique. Additionally, your dissertation has to be edited thoroughly.
                         If you cannot do it on your own, feel free to use our writing services.
                     </p>
+                    <div class="calc-form">
+                        <div class="row">
+                            <div class="text-center col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                                <h3>Get a price quote</h3>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                                <label>Type of your assignment</label>
+                                <select class="form-control">
+                                    <option>Essay</option>
+                                </select>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                                <label>Urgency</label>
+                                <select class="form-control">
+                                    <option>11 days</option>
+                                </select>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                                <label>Academic Level</label>
+                                <select class="form-control">
+                                    <option>High school</option>
+                                </select>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                                <label>Spacing</label>
+                                <select class="form-control">
+                                    <option>Double</option>
+                                </select>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                                <label>Number of pages</label>
+                                <input class="form-control" type="number">
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                                <label>Currency</label>
 
+                                <div class="radios-as-buttons d-flex justify-content-between">
+                                    <input id="radio1" checked="" class="form-control" name="curenci" type="radio">
+                                    <label for="radio1">USD</label>
+
+                                    <input id="radio2" class="form-control" name="curenci" type="radio">
+                                    <label for="radio2">EUR</label>
+
+                                    <input id="radio3" class="form-control" name="curenci" type="radio">
+                                    <label for="radio3">GBP</label>
+
+                                    <input id="radio4" class="form-control" name="curenci" type="radio">
+                                    <label for="radio4">AUD</label>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="text-center col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                                <a class="btn btn-order-now" href="#">Order for $20.99</a>
+                            </div>
+                        </div>
+                    </div>
                     <p>When writing a dissertation, you will have an opportunity to master your writing skills.
                         Moreover, you will be able to broaden your knowledge of the discussed issue. In case you
                         encounter some difficulties in producing such an academic work, avail our paper writing service

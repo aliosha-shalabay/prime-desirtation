@@ -1016,7 +1016,7 @@ a:hover {
     margin-bottom: 30px;
 }
 
-.baner-4 div p:last-child  {
+.baner-4 div p:last-child {
     color: #136bb5;
     font-family: "Open Sans";
     font-size: 17px;
@@ -1048,11 +1048,21 @@ a:hover {
 .our-service-s1 h3 {
     margin-bottom: 19px;
     margin-top: 24px;
+    color: #30333f;
+    font-family: "Gentium Book Basic";
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 42px;
 }
 
 .our-service-s1 h5 {
     margin-bottom: 51px;
     margin-top: 20px;
+    color: #30333f;
+    font-family: "Gentium Book Basic";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 42px;
 }
 
 .our-service-s1 img {
@@ -1409,7 +1419,7 @@ a:hover {
 }
 
 .order-total span {
-    color: #fb8d01;
+    color: #23a1cb;
     letter-spacing: -0.36px;
 }
 
@@ -1914,10 +1924,11 @@ input[type=file] + label {
     border-bottom: 1px solid #dcedf7;
 }
 
-.faq-list li p:first-child{
+.faq-list li p:first-child {
     border: none;
     padding: 0;
 }
+
 .faq-list li span {
     display: block;
     width: 22px;
@@ -1928,11 +1939,17 @@ input[type=file] + label {
     text-align: center;
     padding: 10px;
 }
-.faq-list li.faq-more{
+
+.faq-list li.faq-more {
     padding: 20px 0; /* Text style for "What is me" */
 
 }
-.faq .calc-form{
+
+.faq .calc-form {
     margin-bottom: 126px;
     margin-top: 54px;
+}
+
+.free-essays-s3 {
+    margin-bottom: 60px;
 }
