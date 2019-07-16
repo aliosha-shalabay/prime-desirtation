@@ -830,7 +830,9 @@ a:hover {
 
 .baner-3 {
     background: url("../images/baner3-img1.png") no-repeat left top;
-    padding: 40px 30px 135px 35px;
+    padding: 40px 30px 114px 35px;
+    border-radius: 5px;
+    margin-bottom: 50px;
 }
 
 .baner-3 h3 {
@@ -1010,14 +1012,14 @@ a:hover {
 .baner-4 {
     background: url("../images/baner4-img1.png") no-repeat left top;
     height: 140px;
-    padding: 33px 50px;
+    padding: 33px 20px;
     margin-bottom: 30px;
 }
 
-.baner-4 div p:first-child {
+.baner-4 div p:last-child  {
     color: #136bb5;
     font-family: "Open Sans";
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 400;
     line-height: 32px;
     /* Text style for "Our outsta" */
@@ -1025,7 +1027,7 @@ a:hover {
     letter-spacing: -0.36px;
 }
 
-.baner-4 div p:last-child {
+.baner-4 div p:first-child {
     color: #07477d;
     font-family: "Open Sans";
     font-weight: 700;
@@ -1290,6 +1292,7 @@ a:hover {
 .discount-s1-of {
     background: url("../images/graph_copy.png") no-repeat right bottom, url("../images/graph_copy_2.png") no-repeat top left;
     padding: 33px;
+    margin-bottom: 30px;
 }
 
 .mb-90 {
@@ -1298,7 +1301,6 @@ a:hover {
 }
 
 .discount-s1-of h5 {
-    border: 5px solid #ffffff;
     color: #fb8c00;
     font-family: "Open Sans";
     font-size: 36px;
@@ -1328,18 +1330,43 @@ a:hover {
 
 .discount-s1-of a.btn-order-now {
     background-image: none;
-    background-color: #136bb5 !important;
+    border-radius: 5px;
+    background-color: #60bb47;
     color: white;
     margin-top: 0;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-top: 10px;
 }
 
 .discount-s1-of a.btn-order-now.orange-color {
-    background-color: #ffffff !important;
-    color: #fb8c00 !important;
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: none;
+    color: #fb8c00;
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top: 10px;
 }
 
 .discount-s1-of a.btn-order-now:hover {
     color: white;
+}
+
+.discount-s1-of a.btn-order-now.orange-color:hover {
+    color: #fb8c00;
+
+}
+
+.discount-s2-of h5 {
+    color: #1d319d;
+}
+
+.discount-s2-of p {
+    color: #136bb5;
 }
 
 .mt-60 {
@@ -1817,20 +1844,95 @@ input[type=file] + label {
     margin-right: -16px;
 }
 
-.block-btn-send a:first-child{
+.block-btn-send a:first-child {
     width: 164px;
     height: 46px;
     box-shadow: 0 2px 5px rgba(96, 187, 71, 0.3);
     border-radius: 5px;
     background-color: #60bb47;
-    color: white;
-
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-top: 12px;
+    margin-right: 22px;
 }
-.block-btn-send a:last-child{
+
+.block-btn-send a:last-child {
     width: 164px;
     height: 50px;
     border-radius: 5px;
     border: 2px solid #e6eee4;
-    color:#60bb47;
+    color: #60bb47;
+    font-weight: 400;
+    padding-top: 9px;
+}
+
+.calc-form p.italic-p {
+    color: #6d6e75;
+    font-family: "Open Sans";
+    font-size: 13px;
+}
+
+.contact-s1 p {
+    margin-bottom: 0;
+}
+
+.contact-s1 {
+    margin-bottom: 45px;
+}
+
+.discount-s2-of {
+    background: url('../images/img1.png') no-repeat right bottom, url('../images/img2.png') no-repeat right top, #e5f4fc url("../images/graph_copy_2.png") no-repeat top left;
+
+}
+
+.title-dicount {
+    color: #30333f;
+    font-family: "Gentium Book Basic";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 42px;
+    text-transform: uppercase;
+    /* Text style for "Get a Disc" */
+    letter-spacing: -0.48px;
+}
+
+.faq-list {
+    padding-left: 0;
+    margin-bottom: 40px;
+}
+
+.faq-list li, .faq-list li p:first-child {
+    color: #136bb5;
+    font-family: "Open Sans";
+    font-size: 15px;
     font-weight: 600;
+    padding: 26px 0; /* Text style for "What is me" */
+    letter-spacing: -0.3px;
+    border-bottom: 1px solid #dcedf7;
+}
+
+.faq-list li p:first-child{
+    border: none;
+    padding: 0;
+}
+.faq-list li span {
+    display: block;
+    width: 22px;
+    height: 22px;
+    background-color: #dff3fb;
+    color: #0996cd;
+    border-radius: 50%;
+    text-align: center;
+    padding: 10px;
+}
+.faq-list li.faq-more{
+    padding: 20px 0; /* Text style for "What is me" */
+
+}
+.faq .calc-form{
+    margin-bottom: 126px;
+    margin-top: 54px;
 }
