@@ -1550,6 +1550,7 @@ a:hover {
     font-family: "Open Sans";
     font-size: 13px;
     font-weight: 400;
+    margin-top: 0px;
 }
 
 .order-page-s1 input, .order-page-s1 select, .order-page-s1 textarea {
@@ -1571,11 +1572,11 @@ a:hover {
 }
 
 .order-page-s1 .radios-as-buttons label {
-    padding: 7px 5px 10px 5px;
+    padding: 12px 5px 10px 5px;
 }
 
 .order-page-s1 .radios-as-buttons {
-    height: 34px;
+    height: 44px;
 }
 
 .group-number .italic-p {
@@ -1679,7 +1680,7 @@ input[type=file] + label {
 }
 
 .order-s5 p {
-    color: #fb8c00;
+    color: #598ce4;
     font-family: "Open Sans";
     font-size: 20px;
     font-weight: 700;
@@ -1695,7 +1696,7 @@ input[type=file] + label {
 }
 
 .price-p {
-    color: #fb8c00;
+    color: #598ce4;
     font-family: "Open Sans";
     font-size: 20px;
     font-weight: 700;
@@ -1730,35 +1731,32 @@ input[type=file] + label {
 }
 
 .order-s7 {
-    background-color: #fb8c00;
     padding: 45px 33px 21px 33px;
+    border-left: 1px solid #d9eaf8;
 }
 
 .order-s7-b1 p:nth-child(1) {
-    opacity: 0.5;
-    color: #ffffff;
+    opacity: 0.7;
+    color: #598ce4;
     font-family: "Open Sans";
     font-size: 23px;
     font-weight: 700;
-    line-height: 22.89px;
     text-transform: uppercase;
     margin-bottom: 0;
 }
 
 .order-s7-b1 p:nth-child(2) {
-    color: #ffffff;
+    color: #598ce4;
     font-family: "Open Sans";
     font-size: 16px;
     font-weight: 400;
-    line-height: 22.89px;
 }
 
 .order-s7-b2 p {
-    color: #ffffff;
+    color: #598ce4;
     font-family: "Open Sans";
     font-size: 20px;
     font-weight: 700;
-    line-height: 20px;
     text-transform: uppercase;
     margin-bottom: 0;
 }
@@ -1953,3 +1951,77 @@ input[type=file] + label {
 .free-essays-s3 {
     margin-bottom: 60px;
 }
+
+.bg-a1 {
+    width: 30px;
+    height: 35px;
+    background: url('../images/css_sprites5.png') -66px -10px;
+}
+
+.bg-a2 {
+    width: 36px;
+    height: 34px;
+    background: url('../images/css_sprites5.png') -10px -10px;
+}
+
+.bg-a3 {
+    width: 34px;
+    height: 35px;
+    background: url('../images/css_sprites5.png') -10px -64px;
+}
+
+.bg-a4 {
+    width: 26px;
+    height: 32px;
+    background: url('../images/css_sprites5.png') -66px -65px;
+}
+
+.order-page-s1 input, .order-page-s1 select {
+    height: 44px;
+}
+
+.order-page-s1 select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    background: url('../images/select_arrow.png') no-repeat right 7px center;
+    outline: 0;
+}
+
+
+.order-page-s1 .radios-as-buttons input:checked + label {
+    background-color: #77a7fa;
+}
+
+
+.order-page-s1 .btn-outline-secondary {
+    border-color: #d8dadb !important;
+}
+
+.order-page-s1 .input-group-append strong, .order-page-s1 .input-group-prepend strong {
+    color: #4a5d71;
+}
+
+.order-page-s1 .input-group-text.orange-btn-form {
+    width: 145px;
+    height: 45px;
+    background-color: #0bdc95;
+}
+
+.order-page-s1 .input-group-text.blue-btn-form {
+    width: 145px;
+    height: 45px;
+    background-color: #77a7fa;
+}
+
+
+.order-page-s1 input[type=radio], .order-page-s1 input[type=checkbox] {
+    height: 10px !important;
+}
+
+.order-page-s1 .radios-as-buttons label {
+    height: 42px !important;
+}
+
+
