@@ -657,9 +657,12 @@ a:hover {
 }
 
 .bg-blog {
-    background-color: #f2fafe;
     box-shadow: 0 1px 3px rgba(83, 94, 105, 0.32);
     margin-bottom: 30px;
+}
+
+.bg-blog:hover {
+    background-color: #f2fafe;
 }
 
 .blog-2-s1 {
@@ -709,7 +712,6 @@ a:hover {
     font-size: 14px;
     font-weight: 600;
     line-height: 45px;
-    /* Text style for "Dissertati" */
     letter-spacing: -0.14px;
     border-bottom: 1px solid #e6f5fe;;
 }
@@ -1076,21 +1078,29 @@ a:hover {
 .calc-form {
     box-shadow: 0 22px 40px rgba(82, 121, 174, 0.09);
     border-radius: 5px;
-    border: 1px solid #e7e7e7;
+    border: 1px solid #a2dfee;
     background-color: #ffffff;
     padding: 35px;
     margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 .calc-form h3 {
     margin: 0;
+    font-weight: 600;
+}
+
+.calc-form select, .calc-form input {
+    color: #878e94;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
 }
 
 .radios-as-buttons {
-    border: 1px solid #d8dadb;
+    border: 1px solid #60bede;
     height: 50px;
 }
-
 
 .radios-as-buttons input {
     position: absolute;
@@ -1098,7 +1108,7 @@ a:hover {
 }
 
 .radios-as-buttons input:checked + label {
-    background-color: #0071c7;
+    background-color: #60bede;
     color: white;
 }
 
@@ -1116,6 +1126,12 @@ a:hover {
 
 .calc-form select, .calc-form input {
     height: 50px;
+    border: 1px solid #a2dfee;
+}
+
+.calc-form textarea {
+    border: 1px solid #a2dfee;
+
 }
 
 .calc-form .btn-order-now {
@@ -1128,7 +1144,7 @@ a:hover {
     padding: 15px 5px 10px 5px;
     /* box-shadow: 0 0 3px rgba(5, 14, 39, 0.3); */
     background-color: #fcfcfc;
-    border-right: 1px solid rgba(5, 14, 39, 0.3);
+    border-right: 1px solid #a2dfee;
     cursor: pointer;
     height: 100%;
     text-align: center;
@@ -1166,7 +1182,7 @@ a:hover {
 }
 
 .border-bottom {
-    border-bottom: 1px solid #e6f5fe;
+    border-bottom: 1px solid #a2dfee !important;
     margin-bottom: 15px;
 }
 
@@ -1775,7 +1791,7 @@ input[type=file] + label {
     color: #ff983c;
 }
 
-.b2-section3 select {
+.b2-section3 select, .calc-form select {
     -webkit-appearance: none;
     -moz-appearance: none;
     -ms-appearance: none;
@@ -1786,4 +1802,35 @@ input[type=file] + label {
 
 .btn-outline-secondary:hover {
     background-color: #d9f7ff;
+}
+
+.blog-2-s3 h3 span {
+    display: block;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background-color: #dff3fb;
+    color: #0996cd;
+    margin-top: 11px;
+    font-size: 22px;
+    padding-bottom: 5px;
+    margin-right: -16px;
+}
+
+.block-btn-send a:first-child{
+    width: 164px;
+    height: 46px;
+    box-shadow: 0 2px 5px rgba(96, 187, 71, 0.3);
+    border-radius: 5px;
+    background-color: #60bb47;
+    color: white;
+
+}
+.block-btn-send a:last-child{
+    width: 164px;
+    height: 50px;
+    border-radius: 5px;
+    border: 2px solid #e6eee4;
+    color:#60bb47;
+    font-weight: 600;
 }
