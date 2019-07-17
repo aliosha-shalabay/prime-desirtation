@@ -2059,3 +2059,13 @@ input[type=file] + label {
 .baner-7 img{
     margin-right: 11px;
 }
+.file i:first-child{
+    color:  #77a7fa;
+    margin-right: 5px;
+}
+.file i:last-child{
+    margin-left: 5px;
+}
+.file{
+    font-weight: 600;
+}
