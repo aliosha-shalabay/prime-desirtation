@@ -12,7 +12,6 @@ p {
 
 h4 {
     color: #2a2d3a;
-    font-family: 'Gentium Book Basic';
     font-size: 48px;
     font-weight: 700;
     line-height: 56px;
@@ -79,7 +78,7 @@ a:hover {
 
 .block-1 .nav ul li a {
     color: #313440;
-    font-family: "Open Sans";
+    /*font-family: "Open Sans";*/
     font-size: 12px;
     font-weight: 400;
     line-height: 16px;
@@ -93,7 +92,7 @@ a:hover {
 }
 
 .block-1 .b1-contact .b1-phone + div p {
-    font-family: "Open Sans";
+    /*font-family: "Open Sans";*/
     font-size: 14px;
     font-weight: 700;
     line-height: 18px;
@@ -107,7 +106,7 @@ a:hover {
 
 .block-1 .b1-contact .b1-phone div:nth-child(2) p {
     color: #17a2b8;
-    font-family: "Open Sans";
+    /*font-family: "Open Sans";*/
     font-size: 13px;
     font-weight: 700;
     line-height: 18px;
@@ -125,7 +124,7 @@ a:hover {
 
 .block-1 .b1-chat p {
     color: #313440;
-    font-family: "Open Sans";
+    /*font-family: "Open Sans";*/
     font-size: 14px;
     font-weight: 400;
 }
@@ -180,7 +179,7 @@ a:hover {
     height: 50px;
     width: 100%;
     color: #9ea1a4;
-    font-family: "Open Sans";
+    /*font-family: "Open Sans";*/
     font-size: 14px;
     font-weight: 400;
     border: 1px solid #a2dfee;
@@ -192,7 +191,7 @@ a:hover {
     background-color: #fafcfc;
     height: 50px;
     color: #9ea1a4;
-    font-family: "Open Sans";
+    /*font-family: "Open Sans";*/
     font-size: 14px;
     font-weight: 400;
     padding: 14px;
@@ -204,7 +203,7 @@ a:hover {
 
 .block-2 .b2-section3 p label {
     color: #6d6e75;
-    font-family: "Open Sans";
+    /*font-family: "Open Sans";*/
     font-size: 13px;
     font-weight: 600;
     margin-bottom: 0;
@@ -272,14 +271,14 @@ a:hover {
 
 .b2-counter p:first-child {
     color: #2a2d3a;
-    font-family: "Open Sans";
+    /*font-family: "Open Sans";*/
     font-size: 36px;
     font-weight: 700;
 }
 
 .b2-counter p:first-child span {
     color: #2a2d3a;
-    font-family: "Open Sans";
+    /*font-family: "Open Sans";*/
     font-size: 36px;
     font-weight: 700;
     margin-right: 20px;
@@ -340,7 +339,7 @@ a:hover {
 
 .b3-section1 p:first-child {
     color: #2a2d3a;
-    font-family: "Open Sans";
+    /*font-family: "Open Sans";*/
     font-size: 18px;
     font-weight: 700;
 }
@@ -363,7 +362,7 @@ a:hover {
 
 .block-3 .b3-section2 .b3-s2-tab p {
     color: #2a2d3a;
-    font-family: "Open Sans";
+    /*font-family: "Open Sans";*/
     font-size: 15px;
     font-weight: 600;
 }
@@ -401,7 +400,6 @@ a:hover {
 
 .block-3 .b3-section5 h5 {
     color: #30333f;
-    font-family: "Gentium Book Basic";
     font-size: 36px;
     font-weight: 700;
     line-height: 45px;
@@ -409,7 +407,7 @@ a:hover {
 
 .bold-p {
     color: #30333f !important;
-    font-family: "Open Sans";
+    /*font-family: "Open Sans";*/
     font-size: 15px !important;
     font-weight: 400 !important;
     /* Text style for "A, re you" */
@@ -418,7 +416,7 @@ a:hover {
     font-weight: 600 !important;
     line-height: 27px;
     /* Text style for "Place you" */
-    font-family: "Open Sans";
+    /*font-family: "Open Sans";*/
     line-height: 26px;
 }
 
@@ -440,7 +438,7 @@ a:hover {
 
 .block-4 .b4-section1 p:first-child {
     color: #30333f;
-    font-family: "Open Sans";
+    /*font-family: "Open Sans";*/
     font-size: 14px;
     font-weight: 500;
     line-height: 22px;
@@ -458,7 +456,7 @@ a:hover {
 
 .block-4 .b4-section1 a {
     color: #30333f;
-    font-family: "Open Sans";
+    /*font-family: "Open Sans";*/
     font-size: 14px;
     font-weight: 600;
     text-transform: uppercase;
@@ -497,7 +495,7 @@ a:hover {
 
 .block-5 .b5-section1 p {
     color: #ffffff;
-    font-family: "Open Sans";
+    /*font-family: "Open Sans";*/
     font-size: 30px;
     font-weight: 700;
     line-height: 40px;
@@ -508,7 +506,7 @@ a:hover {
     background: none;
     background-color: #ffffff;
     color: #fb8c00;
-    font-family: "Open Sans";
+    /*font-family: "Open Sans";*/
     font-size: 14px;
     font-weight: 700;
     text-transform: uppercase;
@@ -533,7 +531,7 @@ a:hover {
 
 .block-6 p {
     color: #6d6e75;
-    font-family: "Open Sans";
+    /*font-family: "Open Sans";*/
     font-size: 12px;
     font-weight: 400;
     line-height: 16px;
@@ -546,7 +544,7 @@ a:hover {
 
 .block-6 .b6-phone div p, .block-6 .b6-email div p, .b6-adrress div p {
     color: #f6f9f9;
-    font-family: "Open Sans";
+    /*font-family: "Open Sans";*/
     font-size: 14px;
     font-weight: 600;
     margin-bottom: 5px;
@@ -560,7 +558,7 @@ a:hover {
 
 .block-6 .b6-title p {
     color: #ff9e24;
-    font-family: "Open Sans";
+    /*font-family: "Open Sans";*/
     font-size: 16px;
     font-weight: 600;
     line-height: 16px;
@@ -573,7 +571,7 @@ a:hover {
 
 .block-6 .b6-service ul li a {
     color: #6d6e75;
-    font-family: "Open Sans";
+    /*font-family: "Open Sans";*/
     font-size: 12px;
     font-weight: 400;
     line-height: 26px;
@@ -581,7 +579,7 @@ a:hover {
 
 .block-6 .b6-menu ul li a {
     color: #f6f9f9;
-    font-family: "Open Sans";
+    /*font-family: "Open Sans";*/
     font-size: 12px;
     font-weight: 400;
     line-height: 26px;
@@ -589,7 +587,7 @@ a:hover {
 
 .block-6 .b6-section1 p {
     color: #ffffff;
-    font-family: "Open Sans";
+    /*font-family: "Open Sans";*/
     font-size: 12px;
     font-weight: 400;
     margin-bottom: 5px;
@@ -597,7 +595,7 @@ a:hover {
 
 .block-6 .b6-section2 p {
     color: #6d6e75;
-    font-family: "Open Sans";
+    /*font-family: "Open Sans";*/
     font-size: 12px;
     font-weight: 400;
     line-height: 19px;
@@ -610,7 +608,7 @@ a:hover {
 
 .block-6 .b6-section3 ul li a {
     color: #ffffff;
-    font-family: "Open Sans";
+    /*font-family: "Open Sans";*/
     font-size: 12px;
     font-weight: 400;
     line-height: 21px;
@@ -635,14 +633,14 @@ a:hover {
 
 .blog-1 nav ol.breadcrumb li {
     color: #595a60;
-    font-family: "Open Sans";
+    /*font-family: "Open Sans";*/
     font-size: 14px;
     font-weight: 400;
 }
 
 .blog-1 nav ol.breadcrumb li a {
     color: #595a60;
-    font-family: "Open Sans";
+    /*font-family: "Open Sans";*/
     font-size: 14px;
     font-weight: 400;
 }
@@ -669,7 +667,6 @@ a:hover {
 .blog-2-s1 h3 a {
     color: #4ca8c7;
 
-    font-family: "Gentium Book Basic";
     font-size: 24px;
     font-weight: 700;
     line-height: 32px;
@@ -677,7 +674,7 @@ a:hover {
 
 .blog-2-s1 div a {
     color: #4ca8c7;
-    font-family: "Open Sans";
+    /*font-family: "Open Sans";*/
     font-size: 14px;
     font-weight: 600;
 }
@@ -694,7 +691,7 @@ a:hover {
     border-radius: 10px 10px 0 0;
     background-color: #60bede;
     color: #ffffff;
-    font-family: "Open Sans";
+    /*font-family: "Open Sans";*/
     font-size: 16px;
     font-weight: 700;
     line-height: 45px;
@@ -748,7 +745,6 @@ a:hover {
 
 .baner-1 h3 {
     color: #30333f;
-    font-family: "Gentium Book Basic";
     font-size: 30px;
     font-weight: 700;
     line-height: 36px;
@@ -758,7 +754,7 @@ a:hover {
 
 .baner-1 p:nth-child(2) {
     color: #30333f;
-    font-family: "Open Sans";
+    /*font-family: "Open Sans";*/
     font-size: 16px;
     font-weight: 400;
     line-height: 27px;
@@ -766,7 +762,7 @@ a:hover {
 
 .baner-1 p:nth-child(3) {
     color: #16a6da;
-    font-family: "Open Sans";
+    /*font-family: "Open Sans";*/
     font-size: 16px;
     font-weight: 700;
     line-height: 27px;
@@ -778,7 +774,7 @@ a:hover {
     display: block;
     margin: 0 auto;
     color: #ffffff !important;
-    font-family: "Open Sans";
+    /*font-family: "Open Sans";*/
     font-size: 14px;
     font-weight: 700;
     text-transform: uppercase;
@@ -794,7 +790,7 @@ a:hover {
 
 .baner-2 h3 {
     color: #17a2b8;
-    font-family: "Open Sans";
+    /*font-family: "Open Sans";*/
     font-size: 36px;
     font-weight: 600;
     line-height: 23.7px;
@@ -805,7 +801,7 @@ a:hover {
 
 .baner-2 p {
     color: #17a2b8;
-    font-family: "Open Sans";
+    /*font-family: "Open Sans";*/
     font-size: 16px;
     font-weight: 400;
     line-height: 36px;
@@ -816,7 +812,7 @@ a:hover {
     box-shadow: none;
     background: white;
     color: #fb8c00 !important;
-    font-family: "Open Sans";
+    /*font-family: "Open Sans";*/
     font-size: 10px;
     font-weight: 700;
     text-transform: uppercase;
@@ -842,7 +838,7 @@ a:hover {
 
 .baner-3 p {
     color: #ffffff;
-    font-family: "Open Sans";
+    /*font-family: "Open Sans";*/
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
@@ -911,7 +907,6 @@ a:hover {
 
 .blue-p {
     color: #17a2b8;
-    font-family: 'Gentium Book Basic';
     font-size: 22px;
     font-weight: 300;
     font-style: italic;
@@ -925,7 +920,7 @@ a:hover {
     background: url("../images/free-essays-img1.png") no-repeat left top 8px;
     padding-left: 30px;
     color: #17a2b8;
-    font-family: "Open Sans";
+    /*font-family: "Open Sans";*/
     font-size: 15px;
     font-weight: 600;
     line-height: 25px;
@@ -980,7 +975,7 @@ a:hover {
 
 .free-essays-s2 p {
     color: #2a2d3a;
-    font-family: "Open Sans";
+    /*font-family: "Open Sans";*/
     font-size: 15px;
     font-weight: 600;
     letter-spacing: -0.3px;
@@ -1013,12 +1008,12 @@ a:hover {
 
 .baner-4 div p:last-child, .baner-8 div p span {
     color: #17a2b8;
-    font-family: "Open Sans";
+    /*font-family: "Open Sans";*/
     font-size: 17px;
     font-weight: 400;
     line-height: 32px;
     /* Text style for "Our outsta" */
-    font-family: "Open Sans";
+    /*font-family: "Open Sans";*/
     letter-spacing: -0.36px;
 }
 
@@ -1033,7 +1028,7 @@ a:hover {
 
 .baner-4 div p:first-child, .baner-8 div p {
     color: #17a2b8;
-    font-family: "Open Sans";
+    /*font-family: "Open Sans";*/
     font-weight: 700;
     letter-spacing: -0.36px;
     font-size: 18px;
@@ -1091,7 +1086,7 @@ a:hover {
 
 .alert-blue p {
     color: #ffffff;
-    font-family: "Open Sans";
+    /*font-family: "Open Sans";*/
     font-size: 15px;
     font-weight: 600;
     line-height: 26px;
@@ -1116,7 +1111,7 @@ a:hover {
 
 .calc-form select, .calc-form input {
     color: #878e94;
-    font-family: "Open Sans";
+    /*font-family: "Open Sans";*/
     font-size: 14px;
     font-weight: 400;
 }
@@ -1138,7 +1133,7 @@ a:hover {
 
 .calc-form label {
     color: #6d6e75;
-    font-family: "Open Sans";
+    /*font-family: "Open Sans";*/
     font-size: 13px;
     font-weight: 600;
     margin-top: 26px;
@@ -1175,7 +1170,7 @@ a:hover {
     width: 25%;
     margin-bottom: 0;
     color: #2a2d3a;
-    font-family: "Open Sans";
+    /*font-family: "Open Sans";*/
     font-size: 14px;
     font-weight: 600;
     text-transform: uppercase;
@@ -1212,7 +1207,7 @@ a:hover {
 
 .p-contact-s1 {
     color: #17a2b8;
-    font-family: "Open Sans";
+    /*font-family: "Open Sans";*/
     font-size: 14px;
     font-weight: 400;
     line-height: 21px;
@@ -1256,7 +1251,7 @@ a:hover {
 
 .supor p:first-child {
     color: #07477d;
-    font-family: "Open Sans";
+    /*font-family: "Open Sans";*/
     font-size: 16px;
     font-weight: 700;
     line-height: 32px;
@@ -1267,7 +1262,7 @@ a:hover {
 
 .supor p:last-child {
     color: #17a2b8;
-    font-family: "Open Sans";
+    /*font-family: "Open Sans";*/
     font-size: 18px;
     font-weight: 400;
     line-height: 32px;
@@ -1277,7 +1272,7 @@ a:hover {
 
 .contact-s1-phone p {
     color: #07477d;
-    font-family: "Open Sans";
+    /*font-family: "Open Sans";*/
     font-size: 16px;
     font-weight: 700;
     line-height: 25px;
@@ -1300,7 +1295,6 @@ a:hover {
 
 .discount-s1 h3 {
     color: #30333f;
-    font-family: 'Gentium Book Basic';
     font-size: 30px;
     font-weight: 700;
     line-height: 42px;
@@ -1320,7 +1314,7 @@ a:hover {
 
 .discount-s1-of h5 {
     color: #17a2b8;
-    font-family: "Open Sans";
+    /*font-family: "Open Sans";*/
     font-size: 36px;
     font-weight: 600;
     line-height: 23.7px;
@@ -1331,17 +1325,17 @@ a:hover {
 
 .discount-s1-of p {
     color: #596b8e;
-    font-family: "Open Sans";
+    /*font-family: "Open Sans";*/
     font-size: 16px;
     font-weight: 400;
     line-height: 36px;
     /* Text style for "for more t" */
-    font-family: "Open Sans";
+    /*font-family: "Open Sans";*/
     letter-spacing: -0.32px;
 }
 
 .discount-s1-of p span {
-    font-family: "Open Sans";
+    /*font-family: "Open Sans";*/
     font-weight: 600;
     letter-spacing: -0.32px;
 }
@@ -1352,7 +1346,7 @@ a:hover {
     border-radius: 5px;
     background-color: #67c8e0;
     color: #ffffff;
-    font-family: "Open Sans";
+    /*font-family: "Open Sans";*/
     font-size: 12px;
     font-weight: 700;
     text-transform: uppercase;
@@ -1367,7 +1361,7 @@ a:hover {
     background-color: #ffffff;
     box-shadow: none;
     color: #fb8c00;
-    font-family: "Open Sans";
+    /*font-family: "Open Sans";*/
     font-size: 13px;
     font-weight: 700;
     text-transform: uppercase;
@@ -1413,7 +1407,7 @@ a:hover {
 }
 
 .price-s1 span {
-    font-family: "Open Sans";
+    /*font-family: "Open Sans";*/
     font-size: 16px;
     font-weight: 700;
     letter-spacing: -0.32px;
@@ -1421,7 +1415,7 @@ a:hover {
 
 .order-total {
     color: #2a2d3a;
-    font-family: "Open Sans";
+    /*font-family: "Open Sans";*/
     font-size: 18px;
     font-weight: 700;
     /* Text style for "Order tota" */
@@ -1485,7 +1479,7 @@ a:hover {
 
 .order-s1 p {
     color: #30333f;
-    font-family: "Open Sans";
+    /*font-family: "Open Sans";*/
     font-size: 14px;
     font-weight: 600;
     line-height: 22px;
@@ -1558,7 +1552,7 @@ a:hover {
 
 .order-page-s1 label {
     color: #9ea1a4;
-    font-family: "Open Sans";
+    /*font-family: "Open Sans";*/
     font-size: 13px;
     font-weight: 400;
     margin-top: 0px;
@@ -1568,14 +1562,14 @@ a:hover {
     border: 1px solid #e0e5e8;
     background-color: #fafcfc;
     color: #9ea1a4;
-    font-family: "Open Sans";
+    /*font-family: "Open Sans";*/
     font-size: 13px;
     font-weight: 400;
 }
 
 .italic-p {
     color: #2a2d3a;
-    font-family: "Open Sans";
+    /*font-family: "Open Sans";*/
     font-size: 13px;
     font-style: italic;
     margin-top: 15px;
@@ -1609,7 +1603,7 @@ input[type=file] {
 
 input[type=file] + label {
     color: #0071c7;
-    font-family: "Open Sans";
+    /*font-family: "Open Sans";*/
     font-size: 12px;
     font-weight: 600;
     line-height: 30.98px;
@@ -1636,7 +1630,7 @@ input[type=file] + label {
 .input-group-text.orange-btn-form {
     background-color: #f78a00;
     color: #ffffff;
-    font-family: "Open Sans";
+    /*font-family: "Open Sans";*/
     font-size: 12px;
     font-weight: 400;
     line-height: 90px;
@@ -1648,7 +1642,7 @@ input[type=file] + label {
 .input-group-text.blue-btn-form {
     background-color: #1369b2;
     color: #ffffff;
-    font-family: "Open Sans";
+    /*font-family: "Open Sans";*/
     font-size: 12px;
     font-weight: 400;
     line-height: 90px;
@@ -1659,7 +1653,7 @@ input[type=file] + label {
 
 .order-s3 p {
     color: #fb8c00;
-    font-family: "Open Sans";
+    /*font-family: "Open Sans";*/
     font-size: 13px;
     font-weight: 600;
     line-height: 35px;
@@ -1677,7 +1671,7 @@ input[type=file] + label {
 
 .order-s5 label {
     color: #2a2d3a;
-    font-family: "Open Sans";
+    /*font-family: "Open Sans";*/
     font-size: 13px;
     font-weight: 400;
     line-height: 19px;
@@ -1692,7 +1686,7 @@ input[type=file] + label {
 
 .order-s5 p {
     color: #598ce4;
-    font-family: "Open Sans";
+    /*font-family: "Open Sans";*/
     font-size: 20px;
     font-weight: 700;
     line-height: 40px;
@@ -1701,14 +1695,14 @@ input[type=file] + label {
 
 .bold-blue-p {
     color: #17a2b8;
-    font-family: "Open Sans";
+    /*font-family: "Open Sans";*/
     font-size: 15px;
     font-weight: 600;
 }
 
 .price-p {
     color: #598ce4;
-    font-family: "Open Sans";
+    /*font-family: "Open Sans";*/
     font-size: 20px;
     font-weight: 700;
     line-height: 20px;
@@ -1718,7 +1712,7 @@ input[type=file] + label {
 
 .price-discount-p {
     color: #2a2d3a;
-    font-family: "Open Sans";
+    /*font-family: "Open Sans";*/
     font-size: 13px;
     font-weight: 400;
     line-height: 20px;
@@ -1749,7 +1743,7 @@ input[type=file] + label {
 .order-s7-b1 p:nth-child(1) {
     opacity: 0.7;
     color: #598ce4;
-    font-family: "Open Sans";
+    /*font-family: "Open Sans";*/
     font-size: 23px;
     font-weight: 700;
     text-transform: uppercase;
@@ -1758,14 +1752,14 @@ input[type=file] + label {
 
 .order-s7-b1 p:nth-child(2) {
     color: #598ce4;
-    font-family: "Open Sans";
+    /*font-family: "Open Sans";*/
     font-size: 16px;
     font-weight: 400;
 }
 
 .order-s7-b2 p {
     color: #598ce4;
-    font-family: "Open Sans";
+    /*font-family: "Open Sans";*/
     font-size: 20px;
     font-weight: 700;
     text-transform: uppercase;
@@ -1778,7 +1772,7 @@ input[type=file] + label {
 
 .order-s8 button {
     color: #ffffff;
-    font-family: "Open Sans";
+    /*font-family: "Open Sans";*/
     font-size: 14px;
     font-weight: 700;
     line-height: 40.65px;
@@ -1797,18 +1791,18 @@ input[type=file] + label {
 
 .order-s8 p {
     color: #2a2d3a;
-    font-family: "Open Sans";
+    /*font-family: "Open Sans";*/
     font-size: 22px;
     font-weight: 400;
     /* Text style for "Order tota" */
-    font-family: "Open Sans";
+    /*font-family: "Open Sans";*/
     letter-spacing: -0.22px;
     margin-top: 28px;
 }
 
 .order-s8 p span {
     color: #17a2b8;
-    font-family: "Open Sans";
+    /*font-family: "Open Sans";*/
     font-weight: 700;
 }
 
@@ -1873,7 +1867,7 @@ input[type=file] + label {
     border-radius: 5px;
     background-color: #60bb47;
     color: #ffffff;
-    font-family: "Open Sans";
+    /*font-family: "Open Sans";*/
     font-size: 12px;
     font-weight: 400;
     text-transform: uppercase;
@@ -1893,7 +1887,7 @@ input[type=file] + label {
 
 .calc-form p.italic-p {
     color: #6d6e75;
-    font-family: "Open Sans";
+    /*font-family: "Open Sans";*/
     font-size: 13px;
 }
 
@@ -2049,7 +2043,7 @@ input[type=file] + label {
 .baner-7 p {
     /* Style for "Become our" */
     color: #434550;
-    font-family: "Open Sans";
+    /*font-family: "Open Sans";*/
     font-size: 14px;
     font-weight: 400;
     line-height: 26px;
@@ -2062,7 +2056,7 @@ input[type=file] + label {
 
 .baner-7 p a {
     color: #fb8c00;
-    font-family: "Open Sans";
+    /*font-family: "Open Sans";*/
     font-weight: 600;
     text-decoration: underline;
 }
@@ -2097,13 +2091,13 @@ input[type=file] + label {
 .baner-9 p:first-child, .baner-10 div p:first-child{
     margin-bottom: 0;
     color: #063e6d;
-    font-family: "Open Sans";
+    /*font-family: "Open Sans";*/
     font-size: 16px;
     font-weight: 600;
     line-height: 26px;
 }
 .baner-9 p:last-child, .baner-10 div p:last-child{
-    font-family: "Open Sans";
+    /*font-family: "Open Sans";*/
     color: #063e6d;
     font-size: 15px;
 }
