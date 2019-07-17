@@ -406,18 +406,18 @@ a:hover {
 }
 
 .bold-p {
-    color: #30333f !important;
-    /*font-family: "Open Sans";*/
+    /*color: #30333f !important;*/
+    /*!*font-family: "Open Sans";*!*/
     font-size: 15px !important;
-    font-weight: 400 !important;
-    /* Text style for "A, re you" */
-    /*font-family: "Open Sans - Semibold";*/
-    font-size: 16px;
-    font-weight: 600 !important;
-    line-height: 27px;
-    /* Text style for "Place you" */
-    /*font-family: "Open Sans";*/
-    line-height: 26px;
+    /*font-weight: 400 !important;*/
+    /*!* Text style for "A, re you" *!*/
+    /*!*font-family: "Open Sans - Semibold";*!*/
+    /*font-size: 16px;*/
+    /*font-weight: 600 !important;*/
+    /*line-height: 27px;*/
+    /*!* Text style for "Place you" *!*/
+    /*!*font-family: "Open Sans";*!*/
+    /*line-height: 26px;*/
 }
 
 .block-3 .b3-section8 p {
@@ -828,7 +828,7 @@ a:hover {
 
 .baner-3 h3 {
     color: #ffffff !important;
-    font-family: "Open Sans" !important;
+    /*font-family: "Open Sans" !important;*/
     font-size: 22px !important;
     font-weight: 700;
     line-height: 26px;
@@ -887,7 +887,7 @@ a:hover {
 
 .free-essays-s1 h3 {
     color: #30333f;
-    font-family: Gentium;
+    /*font-family: Gentium;*/
     font-size: 30px;
     font-weight: 700;
     line-height: 42px;
@@ -1040,7 +1040,7 @@ a:hover {
     text-transform: uppercase;
     padding-top: 9px;
     width: 160px;
-    margin-top: -85px;
+    /*margin-top: -85px;*/
 }
 
 .baner-4 a {
