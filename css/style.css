@@ -25,9 +25,7 @@ ul {
 }
 
 .btn-order-now {
-    box-shadow: 0 2px 5px rgba(237, 147, 33, 0.3);
-    background-color: #fb8c00;
-    background-image: linear-gradient(to top, #fb8c00 0%, #ff9e24 100%);
+    background-color: #0bdc95;
     color: white;
     border-radius: .25rem;
     padding: 7px 0 13px 0;
@@ -1279,10 +1277,7 @@ a:hover {
 }
 
 .contact-s1-btn .btn-order-now:first-child {
-    box-shadow: 0 2px 5px rgba(113, 209, 91, 0.3);
-    background-color: #fb8c00;
-    background-image: linear-gradient(to top, #60bb47 0%, #71d15b 100%);
-
+    background-color: #67c8e0;
 }
 
 .contact-s1-phone {
@@ -1339,15 +1334,19 @@ a:hover {
 }
 
 .discount-s1-of a.btn-order-now {
-    background-image: none;
+    width: 130px;
+    height: 46px;
     border-radius: 5px;
-    background-color: #60bb47;
-    color: white;
-    margin-top: 0;
-    font-size: 13px;
-    text-transform: uppercase;
+    background-color: #67c8e0;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 12px;
     font-weight: 700;
-    padding-top: 10px;
+    text-transform: uppercase;
+    padding-top: 12px;
+    margin-right: 22px;
+    background-image: none;
+    box-shadow: none;
 }
 
 .discount-s1-of a.btn-order-now.orange-color {
@@ -2056,16 +2055,20 @@ input[type=file] + label {
     font-weight: 600;
     text-decoration: underline;
 }
-.baner-7 img{
+
+.baner-7 img {
     margin-right: 11px;
 }
-.file i:first-child{
-    color:  #77a7fa;
+
+.file i:first-child {
+    color: #77a7fa;
     margin-right: 5px;
 }
-.file i:last-child{
+
+.file i:last-child {
     margin-left: 5px;
 }
-.file{
+
+.file {
     font-weight: 600;
 }
