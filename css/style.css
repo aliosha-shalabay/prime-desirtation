@@ -5,7 +5,6 @@
 
 p {
     color: #6d6e75;
-    font-family: "Open Sans";
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
@@ -1929,7 +1928,6 @@ input[type=file] + label {
 
 .faq-list li, .faq-list li p:first-child {
     color: #17a2b8;
-    font-family: "Open Sans";
     font-size: 15px;
     font-weight: 600;
     padding: 26px 0; /* Text style for "What is me" */
