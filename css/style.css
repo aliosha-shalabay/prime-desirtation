@@ -13,7 +13,7 @@ p {
 
 h4 {
     color: #2a2d3a;
-    font-family: "Gentium Book";
+    font-family: 'Gentium Book Basic';
     font-size: 48px;
     font-weight: 700;
     line-height: 56px;
@@ -107,7 +107,7 @@ a:hover {
 }
 
 .block-1 .b1-contact .b1-phone div:nth-child(2) p {
-    color: #136bb5;
+    color: #17a2b8;
     font-family: "Open Sans";
     font-size: 13px;
     font-weight: 700;
@@ -132,7 +132,7 @@ a:hover {
 }
 
 .btn-login {
-    color: #136bb5;
+    color: #17a2b8;
     border: 2px solid #c8dbe5;
     background: white;
     box-shadow: none;
@@ -140,7 +140,7 @@ a:hover {
 }
 
 .btn-login:hover {
-    color: #136bb5;
+    color: #17a2b8;
 }
 
 .block-2 .b1-section1 {
@@ -149,7 +149,7 @@ a:hover {
 
 .block-2 .b1-section1 p:last-child {
     color: #292c39;
-    font-family: "Gentium";
+    font-family: 'Gentium Book Basic';
     font-size: 24px;
     font-weight: 300;
     font-style: italic;
@@ -296,7 +296,7 @@ a:hover {
 .line-title {
     width: 60px;
     height: 2px;
-    background: #5fba46;
+    background:  #5fbdde;
     margin-top: 20px !important;
     margin-bottom: 20px !important;
 }
@@ -705,7 +705,7 @@ a:hover {
 }
 
 .blog-2-s3 ul li a {
-    color: #004f99;
+    color: #17a2b8;
     font-family: "Open Sans";
     font-size: 14px;
     font-weight: 600;
@@ -729,7 +729,7 @@ a:hover {
     padding: 5px 10px;
     border-radius: 3px;
     background-color: #e0f3fc;
-    margin: 5px 5px;
+    margin: 5px 5px;''
     display: inline-block;
 }
 
@@ -742,7 +742,6 @@ a:hover {
     background: url("../images/baner1-img1.png") no-repeat left top,
     url("../images/baner1-img3.png") no-repeat left top 240px,
     url("../images/baner1-img4.png") no-repeat right top 210px,
-    #f2fafe url("../images/baner1-img5.png") no-repeat left 47% top 217px;
     #f2fafe url("../images/baner1-img5.png") no-repeat left 47% top 217px;
     border-radius: 10px;
     box-shadow: inset 0 0 0 rgba(0, 49, 84, 0.1);
@@ -796,7 +795,7 @@ a:hover {
 }
 
 .baner-2 h3 {
-    color: #1d319d;
+    color: #17a2b8;
     font-family: "Open Sans";
     font-size: 36px;
     font-weight: 600;
@@ -807,7 +806,7 @@ a:hover {
 }
 
 .baner-2 p {
-    color: #136bb5;
+    color: #17a2b8;
     font-family: "Open Sans";
     font-size: 16px;
     font-weight: 400;
@@ -878,11 +877,11 @@ a:hover {
 .page-link:hover {
     padding: 5px 10px;
     border-radius: 50%;
-    color: #136bb5;
+    color: #17a2b8;
 }
 
 .my-active {
-    background-color: #136bb5;
+    background-color: #17a2b8;
     padding: 5px 10px;
     border-radius: 50%;
     color: white;
@@ -913,8 +912,8 @@ a:hover {
 }
 
 .blue-p {
-    color: #136bb5;
-    font-family: "Gentium";
+    color: #17a2b8;
+    font-family: 'Gentium Book Basic';
     font-size: 22px;
     font-weight: 300;
     font-style: italic;
@@ -927,7 +926,7 @@ a:hover {
     list-style: none;
     background: url("../images/free-essays-img1.png") no-repeat left top 8px;
     padding-left: 30px;
-    color: #004f99;
+    color: #17a2b8;
     font-family: "Open Sans";
     font-size: 15px;
     font-weight: 600;
@@ -1014,8 +1013,8 @@ a:hover {
     margin-bottom: 30px;
 }
 
-.baner-4 div p:last-child {
-    color: #136bb5;
+.baner-4 div p:last-child, .baner-8 div p span {
+    color: #17a2b8;
     font-family: "Open Sans";
     font-size: 17px;
     font-weight: 400;
@@ -1025,13 +1024,30 @@ a:hover {
     letter-spacing: -0.36px;
 }
 
-.baner-4 div p:first-child {
-    color: #07477d;
+.baner-8 div p {
+    margin-bottom: 206px;
+}
+
+.baner-8 {
+    background:  url("../images/baner-8-img1.png") no-repeat center,  url("../images/b8-img1.png") no-repeat center bottom, url("../images/b8-img3.png") no-repeat bottom 100px right, #f0fbff url("../images/b8-img2.png") no-repeat left top;
+    padding: 45px 40px 55px 40px;
+}
+
+.baner-4 div p:first-child, .baner-8 div p {
+    color: #17a2b8;
     font-family: "Open Sans";
     font-weight: 700;
     letter-spacing: -0.36px;
     font-size: 18px;
+}
 
+.baner-8 .btn-order-now{
+    margin-right: 0;
+    color: white!important;
+    text-transform: uppercase;
+    padding-top: 9px;
+    width: 160px;
+    margin-top: -85px;
 }
 
 .baner-4 a {
@@ -1169,7 +1185,7 @@ a:hover {
 }
 
 .blog-page-s1 h3:first-child {
-    color: #136bb5;
+    color: #17a2b8;
     margin-bottom: 35px;
 }
 
@@ -1197,7 +1213,7 @@ a:hover {
 }
 
 .p-contact-s1 {
-    color: #136bb5;
+    color: #17a2b8;
     font-family: "Open Sans";
     font-size: 14px;
     font-weight: 400;
@@ -1232,7 +1248,7 @@ a:hover {
     margin-top: 30px;
 }
 
-.contact-s1 .baner-5 {
+.baner-5 {
     background: url("../images/contact-img1.png") no-repeat right bottom;
     padding: 15px;
     padding-left: 285px;
@@ -1252,7 +1268,7 @@ a:hover {
 }
 
 .supor p:last-child {
-    color: #136bb5;
+    color: #17a2b8;
     font-family: "Open Sans";
     font-size: 18px;
     font-weight: 400;
@@ -1286,7 +1302,7 @@ a:hover {
 
 .discount-s1 h3 {
     color: #30333f;
-    font-family: "Gentium";
+    font-family: 'Gentium Book Basic';
     font-size: 30px;
     font-weight: 700;
     line-height: 42px;
@@ -1302,11 +1318,10 @@ a:hover {
 
 .mb-90 {
     margin-bottom: 90px;
-
 }
 
 .discount-s1-of h5 {
-    color: #fb8c00;
+    color: #17a2b8;
     font-family: "Open Sans";
     font-size: 36px;
     font-weight: 600;
@@ -1367,15 +1382,14 @@ a:hover {
 
 .discount-s1-of a.btn-order-now.orange-color:hover {
     color: #fb8c00;
-
 }
 
 .discount-s2-of h5 {
-    color: #1d319d;
+    color: #17a2b8;
 }
 
 .discount-s2-of p {
-    color: #136bb5;
+    color: #17a2b8;
 }
 
 .mt-60 {
@@ -1423,7 +1437,7 @@ a:hover {
 }
 
 .prices-s1 h3 {
-    font-family: "Gentium";
+    font-family: 'Gentium Book Basic';
     color: #30333f;
     font-size: 30px;
     font-weight: 700;
@@ -1445,7 +1459,7 @@ a:hover {
 
 .price-s2 p {
     color: #30333f;
-    font-family: "Gentium";
+    font-family: 'Gentium Book Basic';
     font-size: 18px;
     font-weight: 300;
     font-style: italic;
@@ -1533,8 +1547,8 @@ a:hover {
 }
 
 .order-page-s1 h3 {
-    color: #136bb5;
-    font-family: "Gentium";
+    color: #17a2b8;
+    font-family: 'Gentium Book Basic';
     font-size: 24px;
     font-weight: 700;
     line-height: 56px;
@@ -1688,7 +1702,7 @@ input[type=file] + label {
 }
 
 .bold-blue-p {
-    color: #136bb5;
+    color: #17a2b8;
     font-family: "Open Sans";
     font-size: 15px;
     font-weight: 600;
@@ -1795,7 +1809,7 @@ input[type=file] + label {
 }
 
 .order-s8 p span {
-    color: #136bb5;
+    color: #17a2b8;
     font-family: "Open Sans";
     font-weight: 700;
 }
@@ -1915,7 +1929,7 @@ input[type=file] + label {
 }
 
 .faq-list li, .faq-list li p:first-child {
-    color: #136bb5;
+    color: #17a2b8;
     font-family: "Open Sans";
     font-size: 15px;
     font-weight: 600;
@@ -2071,4 +2085,59 @@ input[type=file] + label {
 
 .file {
     font-weight: 600;
+}
+
+.baner-9 {
+    padding: 45px 38px;
+    background: url('../images/b9-img1.png') no-repeat right  bottom, #f0fbff url('../images/b9-img2.png') no-repeat left  top;
+
+}
+.baner-9 p{
+    margin-bottom: 0;
+
+}
+
+.baner-9 p:first-child, .baner-10 div p:first-child{
+    margin-bottom: 0;
+    color: #063e6d;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+}
+.baner-9 p:last-child, .baner-10 div p:last-child{
+    font-family: "Open Sans";
+    color: #063e6d;
+    font-size: 15px;
+}
+.baner-9 a.btn-order-now{
+    margin-top: 0;
+    margin-right: 0;
+}
+.baner-10{
+    padding: 50px 21px 70px 21px;
+    background: url('../images/b10-img1.png') no-repeat right  bottom, url('../images/b10-img2.png') no-repeat left  top;
+    margin-top: 40px;
+
+}
+.baner-10 img{
+    margin-bottom: 25px;
+}
+.baner-10 p{
+    margin-bottom: 0;
+}
+.baner-10 a{
+    color: white!important;
+    text-transform: uppercase;
+    padding: 9px;
+    width: 160px;
+}
+.order-page-s1 a {
+    color: #17a2b8;
+}
+.order-s8 p span{
+    color:#598ce4;
+}
+input[type="file"] + label{
+    color: #17a2b8;
 }
