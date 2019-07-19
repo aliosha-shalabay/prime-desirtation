@@ -2159,3 +2159,13 @@ input[type=file] + label {
 input[type="file"] + label {
     color: #17a2b8;
 }
+h4 + p{
+    font-size: 18px;
+}
+.scrols{
+    height: 300px;
+    overflow: scroll;
+}
+.b6-phone span{
+    color: #585a61;
+}

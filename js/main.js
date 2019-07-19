@@ -21,9 +21,9 @@ jQuery(document).ready(function () {
                     }
                 }],
         });
-    $(".slider2").slick({
-        infinite: true,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-    });
+    // $(".slider2").slick({
+    //     infinite: true,
+    //     slidesToShow: 1,
+    //     slidesToScroll: 1,
+    // });
 });
