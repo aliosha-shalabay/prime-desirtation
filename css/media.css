@@ -304,7 +304,9 @@
         margin: 0 auto;
         display: block;
     }
-
+    .blog-page-2 .blog-page-s1 h3:first-child{
+        margin-bottom: 6px;
+    }
 
 }
 
