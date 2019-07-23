@@ -307,6 +307,13 @@
     .blog-page-2 .blog-page-s1 h3:first-child{
         margin-bottom: 6px;
     }
+    .calc-form p.italic-p{
+        margin-bottom: 23px;
+    }
+
+    .contact-s1 p{
+        font-size: 11px;
+    }
 
 }
 

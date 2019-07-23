@@ -2240,3 +2240,6 @@ h4 + p {
 .blog-2-s2 img{
     width: 100%;
 }
+.contact-s1 p{
+    text-align: center;
+}
