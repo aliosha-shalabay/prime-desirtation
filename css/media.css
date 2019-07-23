@@ -456,6 +456,13 @@
         background: url("../images/img5.png") no-repeat center top / 180px;
     }
 
+    .bg-3_layers, .bg-3_layers__1_{
+        margin: 0;
+    }
+    .contact-s1 div:last-child{
+        margin-top: 20px;
+    }
+
 }
 
 @media only screen and (max-width: 500px) {
