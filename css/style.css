@@ -633,20 +633,22 @@ a:hover {
 .blog-1 nav ol.breadcrumb {
     background: none;
     padding: 0;
+    font-weight: 600;
+
 }
 
 .blog-1 nav ol.breadcrumb li {
     color: #595a60;
     /*font-family: "Open Sans";*/
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 600;
 }
 
 .blog-1 nav ol.breadcrumb li a {
     color: #595a60;
     /*font-family: "Open Sans";*/
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 600;
 }
 
 .blog-1 {
@@ -756,12 +758,13 @@ a:hover {
     letter-spacing: -0.6px;
 }
 
-.baner-1 p:nth-child(2) {
+.baner-1 p {
     color: #30333f;
     /*font-family: "Open Sans";*/
     font-size: 16px;
     font-weight: 400;
     line-height: 27px;
+    text-align: center;
 }
 
 .baner-1 p:nth-child(3) {
@@ -2233,4 +2236,7 @@ h4 + p {
 
 .show-more {
     margin: 0 auto;
+}
+.blog-2-s2 img{
+    width: 100%;
 }

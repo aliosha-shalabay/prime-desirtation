@@ -133,7 +133,7 @@
     }
 
     .block-1 .b1-contact .b1-phone div:nth-child(2) {
-        padding-top: 6px;
+        padding-top: 8px;
         margin-left: 7px;
     }
 
@@ -256,6 +256,56 @@
     .block-6 .b6-section1 p {
         margin-bottom: 15px;
     }
+
+    .block-1 .b1-contact {
+        margin-bottom: 32px;
+    }
+
+    .blog-1 {
+        padding-top: 35px;
+        padding-bottom: 45px;
+        /*background: url("../images/bg2.png") no-repeat left -180px top 10px, url("../images/bg1.png") no-repeat right -10px bottom 60px, url("../images/bg3.png") no-repeat center top -30px;*/
+    }
+    .blog-2-s3 ul{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .blog-2-s3 h3{
+        padding-left: 15px;
+    }
+    .baner-1 h3{
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .baner-1{
+        padding: 15px 20px;
+    }
+    .baner-1 p:nth-child(2){
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+    }
+    .baner-1 .btn-order-now{
+        margin-top: 0;
+    }
+    .baner-1 img{
+        margin-left: 17px;
+    }
+    .baner-3{
+        padding: 15px 15px 15px 15px;
+    }
+    .baner-3 p{
+        text-align: center;
+    }
+    .baner-3 h3{
+        text-align: center;
+    }
+    .baner-3 .btn-order-now{
+        margin: 0 auto;
+        display: block;
+    }
+
+
 }
 
 @media only screen and (max-width: 767px) {
@@ -365,9 +415,13 @@
     .block-1 .b1-contact .b1-phone div:nth-child(2) p {
         font-size: 13px;
     }
+
     .b3-section1 {
         display: inline-block;
         margin-top: 0px;
+    }
+    .blog-1 {
+        background: url("../images/bg2.png") no-repeat left -180px top 10px, url("../images/bg1.png") no-repeat right -10px bottom 60px, url("../images/bg3.png") no-repeat center top -30px;
     }
 }
 
