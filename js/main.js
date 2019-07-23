@@ -26,4 +26,22 @@ jQuery(document).ready(function () {
     //     slidesToShow: 1,
     //     slidesToScroll: 1,
     // });
+    $('.show-more').on("click", function (e) {
+        e.preventDefault();
+        $(".b3-section11").fadeIn();
+        $(".b3-section12").fadeIn();
+        $(".hide-more").show();
+        $(this).hide();
+    })
+    $('.hide-more').on("click", function (e) {
+        e.preventDefault();
+        $(".b3-section11").fadeOut();
+        $(".b3-section12").fadeOut();
+        $(".show-more").show();
+        $(this).hide();
+
+        var top = $('.show-more').offset().top;
+        console.log(top);
+        $('body,html').animate({scrollTop: top - 300}, 1500);
+    })
 });

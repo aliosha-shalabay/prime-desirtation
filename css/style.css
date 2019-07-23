@@ -10,6 +10,10 @@ p {
     line-height: 24px;
 }
 
+p {
+    text-align: justify;
+}
+
 h4 {
     color: #2a2d3a;
     font-size: 48px;
@@ -2163,6 +2167,10 @@ h4 + p {
     font-size: 18px;
 }
 
+.block-1 .btn-order-now {
+    text-transform: uppercase;
+}
+
 .scrols {
     height: 300px;
     overflow: scroll;
@@ -2193,5 +2201,36 @@ h4 + p {
     font-size: 14px;
     font-weight: 400;
     line-height: 16px;
-    margin:-1px 13px  0 13px;
+    margin: -1px 13px 0 13px;
+}
+
+.b3-section11, .b3-section12, .hide-more {
+    display: none;
+}
+
+.b3-section11 ul li {
+    list-style: disc;
+    color: #6d6e75;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.b3-section12 ol li {
+    list-style: decimal;
+    color: #6d6e75;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.b3-section11 ol li {
+    list-style: decimal;
+    color: #6d6e75;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.show-more {
+    margin: 0 auto;
 }

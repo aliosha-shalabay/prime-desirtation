@@ -121,7 +121,8 @@
     .b3-section7 img {
         margin-bottom: 25px;
     }
-    .block-6 .b6-phone div p, .block-6 .b6-email div p, .b6-adrress div p{
+
+    .block-6 .b6-phone div p, .block-6 .b6-email div p, .b6-adrress div p {
         font-size: 12px;
     }
 }
@@ -199,6 +200,7 @@
 
     .block-3 .b3-section5 h5 {
         font-size: 18px;
+        line-height: 36px;
     }
 
     .b3-section5 {
@@ -214,42 +216,49 @@
         margin-top: 50px;
     }
 
-    .block-6 .b6-phone div p, .block-6 .b6-email div p, .b6-adrress div p{
+    .block-6 .b6-phone div p, .block-6 .b6-email div p, .b6-adrress div p {
         font-size: 11px;
         text-transform: lowercase;
     }
-    .b4-section2 img{
+
+    .b4-section2 img {
         display: block;
         margin: 0 auto;
     }
-    .b6-service ul{
+
+    .b6-service ul {
         padding: 0;
     }
-    .b6-section3 ul{
+
+    .b6-section3 ul {
         padding: 0;
     }
-    .block-6 .b6-section3 ul li a{
+
+    .block-6 .b6-section3 ul li a {
         margin-left: 15px;
         margin-right: 15px;
     }
-    .block-6{
+
+    .block-6 {
         padding-top: 30px;
         padding-bottom: 30px;
     }
-    .block-6 .b6-phone, .block-6 .b6-email, .b6-adrress, .b6-social{
+
+    .block-6 .b6-phone, .block-6 .b6-email, .b6-adrress, .b6-social {
         margin-bottom: 10px;
     }
-    .b6-footer{
+
+    .b6-footer {
         padding-top: 14px;
         margin-top: 5px;
     }
-    .block-6 .b6-section1 p{
+
+    .block-6 .b6-section1 p {
         margin-bottom: 15px;
     }
 }
 
 @media only screen and (max-width: 767px) {
-
     .block-1 .b1-contact .b1-phone div:nth-child(2) {
         padding-top: 8px;
     }
@@ -276,11 +285,11 @@
 
     .b1-section2 img {
         position: absolute;
-        top: 551px;
+        top: 583px;
     }
 
     .block-2 .b2-section3 {
-        margin-bottom: 52%;
+        margin-bottom: 67%;
         margin-top: 0;
         padding-left: 22px;
         padding-right: 22px;
@@ -291,7 +300,6 @@
     }
 
     .block-2 .b2-section3 .btn-order-now {
-        border-radius: 25px;
         width: 200px;
         margin-left: auto;
         margin-right: auto;
@@ -343,6 +351,22 @@
     }
 
     .b3-section6 {
+        margin-top: 0px;
+    }
+
+    .b1-phone div:first-child p {
+        display: none;
+    }
+
+    .block-1 .b1-contact .b1-phone div:nth-child(2) p:last-child {
+        display: none;
+    }
+
+    .block-1 .b1-contact .b1-phone div:nth-child(2) p {
+        font-size: 13px;
+    }
+    .b3-section1 {
+        display: inline-block;
         margin-top: 0px;
     }
 }
@@ -414,7 +438,8 @@
     .block-5 .b5-section1 .btn-order-now {
         margin-right: 0;
     }
-    .block-5 .b5-section1{
+
+    .block-5 .b5-section1 {
         padding-left: 35px;
         padding-right: 35px;
     }
