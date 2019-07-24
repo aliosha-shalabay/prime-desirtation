@@ -21,11 +21,13 @@ jQuery(document).ready(function () {
                     }
                 }],
         });
+
     // $(".slider2").slick({
     //     infinite: true,
     //     slidesToShow: 1,
     //     slidesToScroll: 1,
     // });
+
     $('.show-more').on("click", function (e) {
         e.preventDefault();
         $(".b3-section11").fadeIn();
@@ -33,6 +35,7 @@ jQuery(document).ready(function () {
         $(".hide-more").css('display', 'block');
         $('.show-more').hide();
     })
+
     $('.hide-more').on("click", function (e) {
         e.preventDefault();
         $(".b3-section11").fadeOut(1000);
