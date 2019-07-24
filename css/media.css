@@ -384,6 +384,9 @@
     .radios-as-buttons label{
         margin-top: 0;
     }
+    .free-essays-s1 h3{
+        font-size: 24px;
+    }
 }
 
 @media only screen and (max-width: 767px) {

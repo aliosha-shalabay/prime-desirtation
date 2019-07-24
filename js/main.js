@@ -30,15 +30,15 @@ jQuery(document).ready(function () {
         e.preventDefault();
         $(".b3-section11").fadeIn();
         $(".b3-section12").fadeIn();
-        $(".hide-more").show();
-        $(this).hide();
+        $(".hide-more").css('display', 'block');
+        $('.show-more').hide();
     })
     $('.hide-more').on("click", function (e) {
         e.preventDefault();
         $(".b3-section11").fadeOut();
         $(".b3-section12").fadeOut();
-        $(".show-more").show();
-        $(this).hide();
+        $(".show-more").css('display', 'block');
+        $('.hide-more').hide();
 
         var top = $('.show-more').offset().top;
         console.log(top);
