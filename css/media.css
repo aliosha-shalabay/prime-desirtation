@@ -125,14 +125,17 @@
     .block-6 .b6-phone div p, .block-6 .b6-email div p, .b6-adrress div p {
         font-size: 12px;
     }
-    .baner-5{
+
+    .baner-5 {
         background: url("../images/contact-img1.png") no-repeat left bottom;
     }
-    .contact-s1 p{
+
+    .contact-s1 p {
         margin-right: 10px;
         margin-bottom: 10px;
     }
-    .contact-s1-btn{
+
+    .contact-s1-btn {
         text-align: center;
     }
 }
@@ -276,115 +279,145 @@
         padding-bottom: 45px;
         /*background: url("../images/bg2.png") no-repeat left -180px top 10px, url("../images/bg1.png") no-repeat right -10px bottom 60px, url("../images/bg3.png") no-repeat center top -30px;*/
     }
-    .blog-2-s3 ul{
+
+    .blog-2-s3 ul {
         padding-left: 10px;
         padding-right: 10px;
     }
-    .blog-2-s3 h3{
+
+    .blog-2-s3 h3 {
         padding-left: 15px;
     }
-    .baner-1 h3{
+
+    .baner-1 h3 {
         font-size: 20px;
         line-height: 28px;
     }
-    .baner-1{
+
+    .baner-1 {
         padding: 15px 20px;
     }
-    .baner-1 p:nth-child(2){
+
+    .baner-1 p:nth-child(2) {
         font-size: 14px;
         line-height: 20px;
         text-align: center;
     }
-    .baner-1 .btn-order-now{
+
+    .baner-1 .btn-order-now {
         margin-top: 0;
     }
-    .baner-1 img{
+
+    .baner-1 img {
         margin-left: 17px;
     }
-    .baner-3{
+
+    .baner-3 {
         padding: 15px 15px 137px 15px;
     }
-    .baner-3 p{
+
+    .baner-3 p {
         text-align: center;
     }
-    .baner-3 h3{
+
+    .baner-3 h3 {
         text-align: center;
     }
-    .baner-3 .btn-order-now{
+
+    .baner-3 .btn-order-now {
         margin: 0 auto;
         display: block;
     }
-    .blog-page-2 .blog-page-s1 h3:first-child{
+
+    .blog-page-2 .blog-page-s1 h3:first-child {
         margin-bottom: 6px;
     }
-    .calc-form p.italic-p{
+
+    .calc-form p.italic-p {
         margin-bottom: 23px;
     }
 
-    .contact-s1 p{
+    .contact-s1 p {
         font-size: 11px;
     }
-    .calc-form h3{
+
+    .calc-form h3 {
         margin-bottom: 0;
         font-size: 23px;
 
     }
-    .calc-form label{
+
+    .calc-form label {
         margin-top: 18px;
     }
-    .calc-form{
+
+    .calc-form {
         padding-top: 5px;
     }
-    .supor p{
+
+    .supor p {
         text-align: left;
     }
-    .baner-5{
+
+    .baner-5 {
         padding-bottom: 170px;
-        padding-left:35px;
+        padding-left: 35px;
         background-color: #f2fafe;
         margin-top: 10px;
     }
+
     .contact-s1-phone p {
         text-align: left;
         font-size: 16px;
         font-weight: 600;
         margin-left: 0;
     }
-    .contact-s1-phone{
+
+    .contact-s1-phone {
         padding-left: 0;
     }
-    .contact-s1-btn{
+
+    .contact-s1-btn {
         text-align: left;
     }
-    .contact-s1-btn .btn-order-now{
+
+    .contact-s1-btn .btn-order-now {
         margin-right: 5px;
     }
-    .discount-s1-of p{
+
+    .discount-s1-of p {
         text-align: left;
         line-height: 19px;
         font-size: 14px;
         margin-top: 15px;
     }
-    .discount-s2-of{
+
+    .discount-s2-of {
         background: url('../images/img1.png') no-repeat right -30px bottom -33px, url('../images/img2.png') no-repeat right top, #e5f4fc url("../images/graph_copy_2.png") no-repeat top left;
     }
-     .discount-s1 h3 {
-        font-size: 19px!important;
+
+    .discount-s1 h3 {
+        font-size: 19px !important;
         line-height: 29px;
     }
-     .discount-s1 .baner-3 {
-         padding: 15px 15px 40px 15px;
+
+    .discount-s1 .baner-3 {
+        padding: 15px 15px 40px 15px;
     }
-    .faq-list li, .faq-list li p:first-child{
+
+    .faq-list li, .faq-list li p:first-child {
         padding: 10px 0;
     }
-    .faq-list li span{
+
+    .faq-list li span {
         margin-left: 10px;
     }
-    .radios-as-buttons label{
+
+    .radios-as-buttons label {
         margin-top: 0;
     }
-    .free-essays-s1 h3{
+
+    .free-essays-s1 h3 {
         font-size: 24px;
     }
 }
@@ -392,6 +425,10 @@
 @media only screen and (max-width: 767px) {
     .block-1 .b1-contact .b1-phone div:nth-child(2) {
         padding-top: 8px;
+    }
+
+    .our-service-1 .discount-s2-of {
+        margin-bottom: 10px;
     }
 
     .block-1 .b1-contact .b1-phone div:nth-child(2) p {
@@ -501,18 +538,37 @@
         display: inline-block;
         margin-top: 0px;
     }
+
     .blog-1 {
         background: url("../images/bg2.png") no-repeat left -180px top 10px, url("../images/bg1.png") no-repeat right -10px bottom 60px, url("../images/bg3.png") no-repeat center top -30px;
     }
-    .discount-s2 .baner-3{
+
+    .discount-s2 .baner-3 {
         width: 362px;
         margin: 0 auto;
         padding: 15px 15px 137px 15px;
 
 
     }
-    .discount-s2 .baner-3 .btn-order-now{
+
+    .discount-s2 .baner-3 .btn-order-now {
         margin: 0;
+    }
+    .our-service-1 .discount-s1-of h5{
+        margin-bottom: 0;
+    }
+    .our-service-1 .discount-s1-of a.btn-order-now.orange-color{
+        margin-top: 0;
+    }
+    .our-service-s1 h5{
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .our-service-s1 .b3-section11 ul li{
+        list-style: none;
+    }
+    .alert-blue{
+        padding: 13px 120px 5px 15px;
     }
 
 }
@@ -539,10 +595,11 @@
         background: url("../images/img5.png") no-repeat center top / 180px;
     }
 
-    .bg-3_layers, .bg-3_layers__1_{
+    .bg-3_layers, .bg-3_layers__1_ {
         margin: 0;
     }
-    .contact-s1 div:last-child{
+
+    .contact-s1 div:last-child {
         margin-top: 20px;
     }
 
@@ -597,15 +654,18 @@
         padding-right: 35px;
     }
 }
+
 @media only screen and (max-width: 456px) {
-    .block-btn-send a:first-child{
+    .block-btn-send a:first-child {
         margin-right: 0;
         margin-top: 5px;
     }
-    .block-btn-send a:last-child{
+
+    .block-btn-send a:last-child {
         margin-top: 5px;
     }
-    .discount-s2 .baner-3{
+
+    .discount-s2 .baner-3 {
         width: 285px;
         background: url("../images/baner3-img1.png") no-repeat right top;
     }
