@@ -138,6 +138,16 @@
     .contact-s1-btn {
         text-align: center;
     }
+    .price-s2 p{
+        line-height: 25px;
+        text-align: center;
+        font-size: 16px;
+    }
+    .price-s2{
+        padding: 23px 20px 19px 20px;
+        margin-top: 13px;
+    }
+
 }
 
 @media only screen and (max-width: 991px) {
@@ -420,6 +430,12 @@
     .free-essays-s1 h3 {
         font-size: 24px;
     }
+    .price-s2 {
+        margin-top: 30px;
+    }
+    .m-left-0{
+        margin-left: 0!important;
+    }
 }
 
 @media only screen and (max-width: 767px) {
@@ -668,5 +684,12 @@
     .discount-s2 .baner-3 {
         width: 285px;
         background: url("../images/baner3-img1.png") no-repeat right top;
+    }
+    .wrapper-price-1{
+        margin-left: -10px;
+        margin-right: -10px;
+    }
+    .free-essays-s1 h3{
+        font-size: 20px;
     }
 }
