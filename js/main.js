@@ -35,13 +35,13 @@ jQuery(document).ready(function () {
     })
     $('.hide-more').on("click", function (e) {
         e.preventDefault();
-        $(".b3-section11").fadeOut();
-        $(".b3-section12").fadeOut();
+        $(".b3-section11").fadeOut(1000);
+        $(".b3-section12").fadeOut(1000);
         $(".show-more").css('display', 'block');
         $('.hide-more').hide();
 
         var top = $('.show-more').offset().top;
         console.log(top);
-        $('body,html').animate({scrollTop: top - 300}, 1500);
+        $('body,html').animate({scrollTop: top - 300}, 1000);
     })
 });
