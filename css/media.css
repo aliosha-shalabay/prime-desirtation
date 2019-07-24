@@ -375,6 +375,15 @@
      .discount-s1 .baner-3 {
          padding: 15px 15px 40px 15px;
     }
+    .faq-list li, .faq-list li p:first-child{
+        padding: 10px 0;
+    }
+    .faq-list li span{
+        margin-left: 10px;
+    }
+    .radios-as-buttons label{
+        margin-top: 0;
+    }
 }
 
 @media only screen and (max-width: 767px) {
