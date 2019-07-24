@@ -125,6 +125,16 @@
     .block-6 .b6-phone div p, .block-6 .b6-email div p, .b6-adrress div p {
         font-size: 12px;
     }
+    .baner-5{
+        background: url("../images/contact-img1.png") no-repeat left bottom;
+    }
+    .contact-s1 p{
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+    .contact-s1-btn{
+        text-align: center;
+    }
 }
 
 @media only screen and (max-width: 991px) {
@@ -313,6 +323,41 @@
 
     .contact-s1 p{
         font-size: 11px;
+    }
+    .calc-form h3{
+        margin-bottom: 0;
+        font-size: 23px;
+
+    }
+    .calc-form label{
+        margin-top: 18px;
+    }
+    .calc-form{
+        padding-top: 5px;
+    }
+    .supor p{
+        text-align: left;
+    }
+    .baner-5{
+        padding-bottom: 170px;
+        padding-left:35px;
+        background-color: #f2fafe;
+        margin-top: 10px;
+    }
+    .contact-s1-phone p {
+        text-align: left;
+        font-size: 16px;
+        font-weight: 600;
+        margin-left: 0;
+    }
+    .contact-s1-phone{
+        padding-left: 0;
+    }
+    .contact-s1-btn{
+        text-align: left;
+    }
+    .contact-s1-btn .btn-order-now{
+        margin-right: 5px;
     }
 
 }
@@ -512,5 +557,14 @@
     .block-5 .b5-section1 {
         padding-left: 35px;
         padding-right: 35px;
+    }
+}
+@media only screen and (max-width: 456px) {
+    .block-btn-send a:first-child{
+        margin-right: 0;
+        margin-top: 5px;
+    }
+    .block-btn-send a:last-child{
+        margin-top: 5px;
     }
 }
