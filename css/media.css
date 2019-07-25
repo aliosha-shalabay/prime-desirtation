@@ -436,6 +436,12 @@
     .m-left-0{
         margin-left: 0!important;
     }
+    .mb-md-30{
+        margin-bottom:30px ;
+    }
+    .mt-md-30{
+        margin-top: 30px;
+    }
 }
 
 @media only screen and (max-width: 767px) {
@@ -594,6 +600,9 @@
         /*margin-left: 15px;*/
     }
 
+    .discount-s2 .baner-3{
+        margin-bottom: 20px;
+    }
 }
 
 @media only screen and (max-width: 575px) {
