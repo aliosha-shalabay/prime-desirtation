@@ -2211,7 +2211,6 @@ h4 + p {
 }
 
 
-
 .b3-section11 ul li {
     list-style: disc;
     color: #6d6e75;
@@ -2227,6 +2226,7 @@ h4 + p {
     font-weight: 400;
     line-height: 24px;
 }
+
 .b3-section11 ol li {
     list-style: decimal;
     color: #6d6e75;
@@ -2250,23 +2250,29 @@ h4 + p {
     text-transform: uppercase;
     padding-top: 10px;
 }
-.show-more i, .hide-more i{
-    color:  #0a97cd;
+
+.show-more i, .hide-more i {
+    color: #0a97cd;
     margin-left: 8px;
 }
-.blog-2-s2 img{
+
+.blog-2-s2 img {
     width: 100%;
 }
-.contact-s1 p{
+
+.contact-s1 p {
     text-align: center;
 }
+
 .b3-section11, .b3-section12, .hide-more {
     display: none;
 }
-.free-essays-s1 .b3-section11 ul li{
+
+.free-essays-s1 .b3-section11 ul li {
     list-style: none;
 }
-.baner-12{
+
+.baner-12 {
     background: url('../images/b12-img1.png') no-repeat right bottom 61px, #f2fafe url('../images/b1-img2.png') no-repeat left top;
 
     padding: 41px 63px;
@@ -2276,7 +2282,8 @@ h4 + p {
     border-radius: 10px;
 
 }
-.baner-12 p{
+
+.baner-12 p {
     margin-bottom: 204px;
     color: #30333f;
     font-size: 16px;
@@ -2284,7 +2291,8 @@ h4 + p {
     line-height: 27px;
     text-align: center;
 }
-.baner-12 p span:first-child{
+
+.baner-12 p span:first-child {
     color: #ffffff;
     font-weight: 700;
     letter-spacing: -0.32px;
@@ -2292,22 +2300,25 @@ h4 + p {
     background-color: #57c3ec;
     padding: 3px;
 }
-.baner-12 p span:last-child{
+
+.baner-12 p span:last-child {
     font-weight: 700;
 }
 
-.baner-12 a{
-    color: white!important;
+.baner-12 a {
+    color: white !important;
     text-transform: uppercase;
     margin: 0;
 }
-.baner-13{
+
+.baner-13 {
     background: url('../images/b13-img1.png') no-repeat left top / 100%;
     padding: 35px 37px;
     padding-bottom: 48px;
 
 }
-.baner-13 p:nth-child(2){
+
+.baner-13 p:nth-child(2) {
     color: #2a2d3a;
     font-size: 18px;
     font-weight: 700;
@@ -2315,27 +2326,116 @@ h4 + p {
     text-transform: uppercase;
 
 }
-.baner-13 p:nth-child(3){
+
+.baner-13 p:nth-child(3) {
     color: #757575;
     font-family: "Open Sans";
     font-size: 13px;
     font-weight: 400;
     line-height: 19px;
 }
-.baner-13 a{
+
+.baner-13 a {
     color: #136bb5;
     font-size: 14px;
     font-weight: 600;
     line-height: 21px;
 }
-.baner-13  i{
+
+.baner-13 i {
     color: #ffc863;;
 
 }
-.baner-14 .baner-13{
+
+.baner-14 .baner-13 {
     background: none;
 }
-.baner-14{
+
+.baner-14 {
     background: url('../images/b14-img1.png') no-repeat left top / 100%;
     padding-bottom: 48px;
+}
+
+.bg-baner15_1 {
+    width: 53px;
+    height: 41px;
+    background: url('../images/css_sprites4.png') -10px -10px;
+}
+
+
+.bg-baner15_2 {
+    width: 53px;
+    height: 41px;
+    background: url('../images/css_sprites4.png') -10px -10px;
+    display: block;
+}
+
+.bg-baner15_3 {
+    width: 53px;
+    height: 41px;
+    background: url('../images/css_sprites4.png') -10px -71px;
+    display: block;
+
+}
+
+
+.bg-baner15_4 {
+    width: 53px;
+    height: 41px;
+    background: url('../images/css_sprites4.png') -83px -71px;
+    display: block;
+
+}
+
+
+.bg-baner15_5 {
+    width: 53px;
+    height: 41px;
+    background: url('../images/css_sprites4.png') -156px -10px;
+    display: block;
+
+}
+
+
+.bg-baner15_6 {
+    width: 53px;
+    height: 41px;
+    background: url('../images/css_sprites4.png') -156px -71px;
+    display: block;
+
+}
+
+.baner-15 {
+    padding: 35px;
+    background:   url('../images/b15-img1.png') no-repeat right -74px bottom,  #f2fafe url('../images/b15-img2.png') no-repeat top left;
+    width: 100%;
+}
+
+.baner-15 div ul li span:first-child {
+    padding-right: 62px;
+}
+.baner-15 div ul  {
+    padding: 0;
+}
+
+.baner-15 div ul li span:last-child {
+    font-weight: 600;
+    padding-right: 4px;
+    padding-left: 4px;
+}
+
+.baner-15 p {
+    color: #30333f;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: -0.48px;
+}
+.baner-15 li {
+    color: #063e6d;
+    font-size: 16px;
+    font-weight: 300;
+
+
+    width: 247px;
 }
